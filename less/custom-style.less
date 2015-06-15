@@ -1,0 +1,341 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3038687, 2015-06-08T14:10:31-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: SamoSans-Italic by Carnoky Type
+ * URL: http://www.myfonts.com/fonts/carnoky/samo-sans/italic/
+ * 
+ * Webfont: SamoSans-BoldItalic by Carnoky Type
+ * URL: http://www.myfonts.com/fonts/carnoky/samo-sans/bold-italic/
+ * 
+ * Webfont: SamoSans-Bold by Carnoky Type
+ * URL: http://www.myfonts.com/fonts/carnoky/samo-sans/bold/
+ * 
+ * Webfont: SamoSans-Regular by Carnoky Type
+ * URL: http://www.myfonts.com/fonts/carnoky/samo-sans/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3038687
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) 2012 by Samuel Carnoky / CarnokyType. All rights reserved.
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2e5ddf");
+
+  
+@font-face {font-family: 'SamoSans';font-weight: normal;font-style: italic;src: url('../samo/2E5DDF_0_0.eot');src: url('../samo/2E5DDF_0_0.eot?#iefix') format('embedded-opentype'),url('../samo/2E5DDF_0_0.woff2') format('woff2'),url('../samo/2E5DDF_0_0.woff') format('woff'),url('../samo/2E5DDF_0_0.ttf') format('truetype'),url('../samo/2E5DDF_0_0.svg#wf') format('svg');}
+@font-face {font-family: 'SamoSans';font-weight: bold;font-style: italic;src: url('../samo/2E5DDF_1_0.eot');src: url('../samo/2E5DDF_1_0.eot?#iefix') format('embedded-opentype'),url('../samo/2E5DDF_1_0.woff2') format('woff2'),url('../samo/2E5DDF_1_0.woff') format('woff'),url('../samo/2E5DDF_1_0.ttf') format('truetype'),url('../samo/2E5DDF_1_0.svg#wf') format('svg');}
+@font-face {font-family: 'SamoSansBoldItalic';font-weight: bold;font-style: italic;src: url('../samo/2E5DDF_1_0.eot');src: url('../samo/2E5DDF_1_0.eot?#iefix') format('embedded-opentype'),url('../samo/2E5DDF_1_0.woff2') format('woff2'),url('../samo/2E5DDF_1_0.woff') format('woff'),url('../samo/2E5DDF_1_0.ttf') format('truetype'),url('../samo/2E5DDF_1_0.svg#wf') format('svg');}
+@font-face {font-family: 'SamoSans';font-weight: bold;font-style: normal;src: url('../samo/2E5DDF_2_0.eot');src: url('../samo/2E5DDF_2_0.eot?#iefix') format('embedded-opentype'),url('../samo/2E5DDF_2_0.woff2') format('woff2'),url('../samo/2E5DDF_2_0.woff') format('woff'),url('../samo/2E5DDF_2_0.ttf') format('truetype'),url('../samo/2E5DDF_2_0.svg#wf') format('svg');}
+@font-face {font-family: 'SamoSansBold';font-weight: bold;font-style: normal;src: url('../samo/2E5DDF_2_0.eot');src: url('../samo/2E5DDF_2_0.eot?#iefix') format('embedded-opentype'),url('../samo/2E5DDF_2_0.woff2') format('woff2'),url('../samo/2E5DDF_2_0.woff') format('woff'),url('../samo/2E5DDF_2_0.ttf') format('truetype'),url('../samo/2E5DDF_2_0.svg#wf') format('svg');}
+@font-face {font-family: 'SamoSans';font-weight: normal;font-style: normal;src: url('../samo/2E5DDF_3_0.eot');src: url('../samo/2E5DDF_3_0.eot?#iefix') format('embedded-opentype'),url('../samo/2E5DDF_3_0.woff2') format('woff2'),url('../samo/2E5DDF_3_0.woff') format('woff'),url('../samo/2E5DDF_3_0.ttf') format('truetype'),url('../samo/2E5DDF_3_0.svg#wf') format('svg');}
+ 
+@import url('mp.less'); 
+ 
+@xs-min: 480px;
+@xs-max: (@sm-min - 1px);
+@sm-min: 768px;
+@md-min: 992px;
+@lg-min: 1200px;
+
+.index {
+	font-weight: 200;	
+}
+
+body {
+	font-family: "SamoSans", sans-serif;
+	padding-top: 15px;
+}
+
+.row {
+	@media (max-width: (@sm-min - 1)) {
+		margin-bottom: 0px;
+	}
+	margin-bottom: 17px;
+	> div {
+		@media (max-width: @sm-min) {
+			margin-bottom: 15px;
+		}
+	}
+	.intro {
+		.block {
+			width: 100%;
+
+			@media (min-width: @sm-min){
+				height: 172px;	
+			}
+			@media (min-width: @md-min){
+				height: 200px;	
+			}
+			@media (min-width: @lg-min){
+				height: 240px;	
+			}
+			
+			&.height-x2 {
+				height: auto;
+				max-height: 100%;
+			}
+			&.text {
+				padding: 14px;	
+			}
+			&.bild {
+				padding: 0;
+				overflow: hidden;
+			}
+			> h2 {
+					@media (min-width: @sm-min){
+						font-size: 19px;
+					}
+					@media (min-width: @md-min){
+						font-size: 24px;
+					}
+					@media (min-width: @lg-min){
+						font-size: 28px;
+					}
+				font-weight: normal;
+				line-height: 1.4;
+				padding: 0;
+				margin: 0;
+				color: white;
+				strong {
+					font-weight: bold;
+					text-style: italic;
+				}
+			}
+			> p {
+				font-size: 18px;
+				padding: 10px 0;
+			}
+			&.logo {
+				> img {
+					width: 80%;
+					height: auto;
+					margin: 0 auto;
+					padding-top: 7%;
+					@media (max-width: (@sm-min - 1)) {
+						padding-top: 7%;
+						padding-bottom: 7%;
+						width: 60%;
+					}
+				}
+			}
+			p {
+				color: white;
+			}
+			&.gruen {
+				background-color: rgb(133, 180, 74)
+				//rgb(89, 151, 11)
+			}
+			&.orange {
+				//background-color: rgb(255, 147, 0);
+				background-color: rgb(255, 210, 56)
+			}
+			&.tuerkis {
+				background-color: rgb(44, 153, 146)
+				//rgb(0, 151, 141)
+			}
+			&.rot {
+				background-color: rgb(192, 18, 74)
+				//rgb(201, 0, 65)
+			}
+			&.violett {
+				background-color: rgb(123, 49, 123)
+				//rgb(102, 51, 102)
+			}
+		}
+	}
+	&.subrow {
+		margin: 0;
+	}
+}
+
+div.row.fliesstext {
+	h1 {
+		color: rgb(102, 204, 51);
+	}
+	p {
+		@media (min-width: @xs-min){
+			-webkit-column-count: 1;
+	    -moz-column-count: 1;
+	    column-count: 1;
+		}
+		@media (min-width: @md-min){
+			-webkit-column-count: 2;
+	    -moz-column-count: 2;
+	    column-count: 2;
+		}
+		
+    font-size: 18px;
+		padding: 10px 0;
+		color: rgb(90, 90, 90);
+	}
+}
+
+div.kontinentkarten {
+	h2, p {
+		@media(min-width: @sm-min){
+			font-size: 17px;
+		}
+		@media(min-width: @md-min){
+			font-size: 23px;
+		}
+		@media(min-width: @lg-min){
+			font-size: 28px;
+		}
+	}
+	h2 {
+		color: white;
+		margin: 0;
+		@media (max-width: (@sm-min - 1)) {
+			font-size: 29px;
+		}
+	}
+	p {
+
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+	> div {
+		
+	}
+	> div.text > .block {
+		@media (max-width: (@sm-min - 1)) {
+			padding: 20px;
+		}
+		@media (min-width: (@sm-min)) {
+			padding: 26px;
+		}
+		@media (min-width: (@md-min)) {
+			padding: 30px;
+		}
+	}
+	&.nord-amerika > div.text > .block {
+		background-color: rgb(157, 169, 165)
+	}
+	&.sued-amerika > div.text > .block {
+		background-color: rgb(199, 135, 100)
+	}
+	&.australien > div.text > .block {
+		background-color: rgb(107, 141, 178)
+	}
+	&.afrika > div.text > .block {
+		background-color: rgb(123, 149, 88)
+	}
+	&.asien > div.text > .block {
+		background-color: #877059
+	}
+	&.arktis > div.text > .block {
+		background-color: rgb(184, 203, 209)
+	}
+	&.europa > div.text > .block {
+		background-color: #EAC765
+	}
+	&.ozean > div.text > .block {
+		background-color: #97C3DB
+	}
+	.block {
+		@media(min-width: @xs-min){
+			height: 232px;		
+		}
+		@media(min-width: @sm-min){
+			height: 232px;		
+		}
+		@media(min-width: @md-min){
+			height: 310px;		
+		}
+		@media(min-width: @lg-min){
+			height: 377px;		
+		}
+		overflow: hidden;
+	}
+}
+
+.panorama {
+	h1 {
+		color: rgb(102, 204, 51);
+		margin-bottom: 34px;
+	}
+	
+}
+
+.pano {
+	
+	@media(min-width: @sm-min) {
+		height: 700px; 
+	}
+	@media(max-width: (@sm-min - 1)) {
+		height: 500px;
+		background-size: auto 500px;
+	}
+	cursor: pointer; 
+}
+
+.lageplan {
+	width: 300px;
+	float: left;
+	padding-right: 5px;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
