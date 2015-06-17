@@ -48,6 +48,46 @@
 @md-min: 992px;
 @lg-min: 1200px;
 
+@gruen: rgb(133, 180, 74);
+@orange: rgb(255, 210, 56);
+.linksCustom(@link, @visited, @hover, @active, @focus) {
+	&:link {
+		color: @link
+	}
+	&:visited {
+		color: @visited
+	}
+	&:hover {
+		color: @hover
+	}
+	&:active {
+		color: @active
+	}
+	&:focus {
+		color: @focus;
+		border-color: darken((@focus), 50%);
+	}
+}
+
+.linksShade(@link, @visited) {
+	&:link {
+		color: @link
+	}
+	&:visited {
+		color: @visited;
+	}
+	&:hover {
+		color: brighten(@link, 8%)
+	}
+	&:active {
+		color: darken(@link, 8%)
+	}
+	&:focus {
+		color: brighten(@link, 8%);
+		border-color: darken((@link), 20%);
+	}
+}
+
 .index {
 	font-weight: 200;	
 }
@@ -55,6 +95,36 @@
 body {
 	font-family: "SamoSans", sans-serif;
 	padding-top: 15px;
+}
+
+nav .menu {
+    width: 100%;
+    
+    ul#navigation{
+        width: 100%;
+        list-style-type: none;
+        padding: 0;
+        z-index: 50;
+        li {
+            display: block;
+            float: left;
+            width: ~"calc(100% / 7)";
+            a {
+                display: block;
+                float: left;
+                background-color: @gruen;
+                width: 100%;
+                padding: 20px;
+                text-align: center;
+                .linksShade(white, white);
+                &:hover {
+                    background-color: @orange;
+                    text-decoration: none;
+                    color: #666666;
+                }
+            }
+        }
+    }
 }
 
 .row {

@@ -501,6 +501,49 @@ body {
   font-family: "SamoSans", sans-serif;
   padding-top: 15px;
 }
+nav .menu {
+  width: 100%;
+}
+nav .menu ul#navigation {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  z-index: 50;
+}
+nav .menu ul#navigation li {
+  display: block;
+  float: left;
+  width: calc(100% / 7);
+}
+nav .menu ul#navigation li a {
+  display: block;
+  float: left;
+  background-color: #85b44a;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+nav .menu ul#navigation li a:link {
+  color: white;
+}
+nav .menu ul#navigation li a:visited {
+  color: white;
+}
+nav .menu ul#navigation li a:hover {
+  color: brighten(white, 8%);
+}
+nav .menu ul#navigation li a:active {
+  color: #ebebeb;
+}
+nav .menu ul#navigation li a:focus {
+  color: brighten(white, 8%);
+  border-color: #cccccc;
+}
+nav .menu ul#navigation li a:hover {
+  background-color: #ffd238;
+  text-decoration: none;
+  color: #666666;
+}
 .row {
   margin-bottom: 17px;
 }
