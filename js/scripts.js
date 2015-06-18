@@ -95,13 +95,12 @@ $(document).ready(function ($) {
         menuHeight = $('#navigation').height();
         function makeSticky() {
             windowOffsetTop = $(window).scrollTop();
-            console.log(menuOffsetTop + ' ' + windowOffsetTop);
             parentWidth = $('#navigation').closest('.menu').css('width');
             if (windowOffsetTop > menuOffsetTop){
-                $('#navigation').css({'position':'fixed', 'top':'0', 'width':parentWidth});
+                $('#navigation').css({'position':'fixed', 'top':'0', 'width':parentWidth}).addClass('sticky');
                 $('.menu').css({'height':menuHeight});
             } else {
-                $('#navigation').css({'position':'relative', 'top':'inital'})
+                $('#navigation').css({'position':'relative', 'top':'inital'}).removeClass('sticky');
             }
         };
 
@@ -119,11 +118,16 @@ $(document).ready(function ($) {
 	    var target = this.hash,
 	    $target = $(target);
 		var p = window.location.hash;
-		var plusHeight = $("#navigation").height();
-		var offset = $target.offset().top
-		offset = offset-plusHeight-5;
-	    $('html, body').stop().animate({
-	        'scrollTop': offset},900,'easeInOutCubic'
+		var plusHeight = $('#navigation').css('height');
+        plusHeight = 60;
+		var offset = $target.offset().top;
+        console.log(plusHeight);
+        console.log(offset + ' ' + plusHeight + ' ' + (offset-plusHeight-165));
+		offset = $('#navigation').hasClass('sticky') == true ? offset-plusHeight : offset-plusHeight-80;
+        shout = $('#navigation').hasClass('sticky') == true ? true : false;
+        //alert(shout);
+        $('html, body').stop().animate({
+	        'scrollTop': offset },900,'easeInOutCubic'
         );
 	});
 
