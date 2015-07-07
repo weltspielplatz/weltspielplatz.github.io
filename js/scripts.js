@@ -88,19 +88,21 @@
 
 $(document).ready(function ($) {
 
-    
+var navigation = $('#navigation');
+var menuParentWidth = navigation.closest('.menu').css('width');
+
     (function stickyNavigation($) {
         
-        menuOffsetTop = $('#navigation').offset().top;
-        menuHeight = $('#navigation').height();
+        menuOffsetTop = navigation.offset().top;
+        menuHeight = navigation.height();
         function makeSticky() {
             windowOffsetTop = $(window).scrollTop();
-            parentWidth = $('#navigation').closest('.menu').css('width');
+            menuParentWidth = navigation.closest('.menu').css('width');
             if (windowOffsetTop > menuOffsetTop){
-                $('#navigation').css({'position':'fixed', 'top':'0', 'width':parentWidth}).addClass('sticky');
+                navigation.css({'position':'fixed', 'top':'0', 'width':menuParentWidth}).addClass('sticky');
                 $('.menu').css({'height':menuHeight});
             } else {
-                $('#navigation').css({'position':'relative', 'top':'inital'}).removeClass('sticky');
+                navigation.css({'position':'relative', 'top':'inital'}).removeClass('sticky');
             }
         };
 
@@ -113,18 +115,18 @@ $(document).ready(function ($) {
     }(jQuery));
     
     $('a[href^="#"]').on('click', function(elem) {
-        console.log(this);
+      
 	    elem.preventDefault();
 	    var target = this.hash,
 	    $target = $(target);
-		var p = window.location.hash;
-		var plusHeight = $('#navigation').css('height');
+			var p = window.location.hash;
+			var plusHeight = navigation.css('height');
         plusHeight = 60;
-		var offset = $target.offset().top;
+			var offset = $target.offset().top;
         console.log(plusHeight);
         console.log(offset + ' ' + plusHeight + ' ' + (offset-plusHeight-165));
-		offset = $('#navigation').hasClass('sticky') == true ? offset-plusHeight : offset-plusHeight-80;
-        shout = $('#navigation').hasClass('sticky') == true ? true : false;
+				offset = navigation.hasClass('sticky') == true ? offset-plusHeight : offset-plusHeight-80;
+        shout = navigation.hasClass('sticky') == true ? true : false;
         //alert(shout);
         $('html, body').stop().animate({
 	        'scrollTop': offset },900,'easeInOutCubic'
@@ -132,6 +134,9 @@ $(document).ready(function ($) {
 	});
 
 	$(window).resize(function () {
+		menuParentWidth = navigation.closest('.menu').css('width');
+		console.log(menuParentWidth);
+		navigation.css({'width': menuParentWidth});
 		$('img.lazy').css('height', function(index, value) {
 			image = this; 
 			return blockLazyImage(image, 'height', false); 
