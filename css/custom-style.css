@@ -513,7 +513,7 @@ nav .menu ul#navigation {
 nav .menu ul#navigation li {
   display: block;
   float: left;
-  width: calc(100% / 7);
+  width: calc((99.999% / 7));
 }
 nav .menu ul#navigation li a {
   display: block;
@@ -524,19 +524,19 @@ nav .menu ul#navigation li a {
   text-align: center;
 }
 nav .menu ul#navigation li a:link {
-  color: white;
+  color: #ffffff;
 }
 nav .menu ul#navigation li a:visited {
-  color: white;
+  color: #ffffff;
 }
 nav .menu ul#navigation li a:hover {
-  color: brighten(white, 8%);
+  color: brighten(#ffffff, 8%);
 }
 nav .menu ul#navigation li a:active {
   color: #ebebeb;
 }
 nav .menu ul#navigation li a:focus {
-  color: brighten(white, 8%);
+  color: brighten(#ffffff, 8%);
   border-color: #cccccc;
 }
 nav .menu ul#navigation li a:hover {
