@@ -135,6 +135,8 @@ var menuParentWidth = navigation.closest('.menu').css('width');
         );
 	});
 
+	$('.videos').fitVids();
+
 	$(window).resize(function () {
 		menuParentWidth = navigation.closest('.menu').css('width');
 		console.log(menuParentWidth);
