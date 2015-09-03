@@ -110,6 +110,14 @@ nav .menu {
             display: block;
             float: left;
             width: ~"calc((99.999% / 7))";
+            @media (max-width: @xs-max) {
+              float: none;
+              width: 100%;
+              display: none;
+              &.aktiv {
+                display: block;
+              }
+            }
             a {
                 display: block;
                 float: left;
