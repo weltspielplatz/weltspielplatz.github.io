@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=768, user-scalable=yes, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link rel='stylesheet' id='stylesheet-weltspielplatz'  href='./css/custom-style.css' type='text/css' media='all' />
+<link href="css/ticker-style.css" rel="stylesheet" type="text/css" />
 <link rel='stylesheet' id='animatecss'  href='//cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css' type='text/css' media='all' />
 
 <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
@@ -17,7 +18,8 @@
 <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.5/jquery.lazyload.min.js'></script>
 <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js'></script>
 <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js'></script>
-<script type="text/javascript" src="js/scripts.min.js"></script>
+<script type="text/javascript" src="js/jquery.ticker.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
 
 <script type="text/javascript">
 <!--
@@ -42,14 +44,6 @@
     }
 // -->
 </script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.4";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 
 
 <title>Weltspielplatz im Treptower Park Berlin: Größter von Kindern erdachter Spielplatz</title>
@@ -70,11 +64,17 @@
                         <li><a href="#engagement">Engagement</a></li>
                         <li><a href="#spenden">Spenden</a></li>
                     </ul>
+                    <ul id="jsTicker" class="js-hidden">
+                        <li class="news-item"><a href="#">Der Weltspielplatz sucht weiterhin Unterstützer</a></li>
+                        <li class="news-item"><a href="#">Auf Süd-Amerika sind neue Tafeln aufgestellt worden</a></li>
+                        <li class="news-item"><a href="#">In der Arktis sind neue Wipp-Pinguine hinzugekommen</a></li>
+                    </ul>
                 </div>
+
             </div>
         </div>
     </nav>
-	<div class="row zeile1">
+	<!-- <div class="row zeile1">
 		<div class="col-sm-4 intro">
 			<div class="block rot text">
 				<h2>Von den kreativsten Köpfen unserer Erde erdacht:<br><strong>begeisterte Kinder</strong></h2>
@@ -138,29 +138,28 @@ Wenn Kinder Spielplätze entwerfen.</h2>
 <strong>Ein großer Kinderspielplatz.</strong></h2>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-	<div class="row zeile4">
-		<div class="col-sm-4 col-xs-12 intro hidden">
-			<div class="block height-x2 violett text">
+	<div class="row zeile4" style="">
+
+		<div class="col-xs-12 col-sm-6 videos">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/OFdqumBi8lA?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+    <div class="col-sm-6 col-xs-12 intro">
+			<div class="block height-x2 text">
 				<h2>Der Weltspielplatz ist ein Projekt des Bezirksamts Treptow-Köpenick und des
 MyTheo e.V.</h2><p>Er ist der größte von Kindern erdachte Spielplatz und das engagierteste Projekt, um Kinder aus aller Welt zusammen zu bringen. Gemeinsam
-wollen wir eine bessere Welt für unsere Kinder schaffen, Mauern in den Köpfen einreißen und dafür sorgen, dass Kinder einen Ort haben, an dem sie miteinander aufwachsen und Spaß haben, egal woher sie kommen. Helfen Sie uns das Projekt zu finanzieren.</p>
+wollen wir eine bessere Welt für unsere Kinder schaffen, Mauern in den Köpfen einreißen und dafür sorgen, dass Kinder einen Ort haben, an dem sie miteinander aufwachsen und Spaß haben, egal woher sie kommen.</p>
 			</div>
-		</div>
-		<div class="col-sm-12 col-xs-12 videos">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/OFdqumBi8lA?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 
 <div class="row termine fliesstext">
-  <div class="col-xs-12 col-sm-4 col-md-3">
-    <iframe height="300" frameborder="0" width="200" scrolling="no" allowtransparency="true" style="height: 300px; width: auto;" src="https://www.startnext.com/weltspielplatz/widget/?w=200&amp;h=300&amp;l=de"></iframe>
+  <div class="col-xs-12" style="">
+
+
   </div>
 
-  <div class="col-xs-12 col-sm-8">
-    <div class="fb-page" data-href="https://www.facebook.com/weltspielplatz" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/weltspielplatz"><a href="https://www.facebook.com/weltspielplatz">Weltspielplatz Treptower Park</a></blockquote></div></div>
-  </div>
 </div>
 
 	<div class="row kontinente fliesstext" id="planung">
@@ -447,26 +446,28 @@ Theo Tintenklecks und das Amt Treptow-Köpenick engagieren sich sehr an diesem F
 		</div>
 	</div>
 	<div class="row spenden fliesstext">
-		<!-- Die Spendenkampagne über Kontodaten
+		<!-- Die Spendenkampagne über Kontodaten-->
 
     <div class="col-md-6">
-			<p class="oc">Demnächst haben Sie hier die Möglichkeit über eine Spendenplattform zu spenden. Bis dahin können Sie unsere Kontodaten verwenden. <br>Sie finden die Kontodaten auch auf unserer <a target="_blank"  href="http://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/gruen/weltspielplatz/artikel.58267.php">Berlin.de</a> Seite.
+			<p class="oc">
+        Bezirksamt Treptow-Köpenick <br>
+        IBAN: DE55100500001613013228 <br>
+        BIC: BELADEBEXXX <br>
+        Verwendungszweck: Weltspielplatz 1239000006535 <br>
+        <br>Sie finden die Kontodaten auch auf unserer <a target="_blank"  href="http://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/gruen/weltspielplatz/artikel.58267.php">Berlin.de</a> Seite.
         </p>
 		</div>
 
-    -->
-    <div class="col-md-6">
+
+    <!-- <div class="col-md-6">
 			<p class="oc">Sie können auf unserer <a href="https://www.startnext.com/weltspielplatz">Startnext-Seite</a> spenden oder sich ein Dankeschön für Ihre Spende aussuchen. Wenn Sie spenden, können Sie sich aussuchen, ob Sie auf der Internetseite als Spender genannt werden wollen und ob Sie ein Spendenquittung bekommen möchten. Die Dankeschöns finanzieren zum Großteil den Spielplatz, aber Sie bekommen auch Unterstützerandenken, mit wir Ihnen danken möchten.</p>
-		</div>
+		</div> -->
     <div class="col-md-6">
 
-      <iframe height="300" frameborder="0" width="200" scrolling="no" allowtransparency="true" style="height: 300px; width: auto;" src="https://www.startnext.com/weltspielplatz/widget/?w=200&amp;h=300&amp;l=de"></iframe>
 
-      <!--
 
-			<p class="oc"><strong>IBAN: </strong>DE55100500001613013228<br><strong>BIC: </strong>BELADEBEXXX<br><strong>Verwendungszweck: </strong>„Weltspielplatz 1239000006535”<br><strong>Ansprechpartnerin: </strong>Frau Dr. Lehmann<br><strong>Tel.: </strong>(030) 90297 – 5823</p>
+			<p class="oc"><strong>Ansprechpartnerin: </strong>Frau Dr. Lehmann<br><strong>Tel.: </strong>(030) 90297 – 5823</p>
 
-      -->
 		</div>
 	</div>
 
