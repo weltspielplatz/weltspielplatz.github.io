@@ -26,6 +26,14 @@ require(['jquery','multicolumn'], function($,Multicolumn) {
 	}
 });
 
+require(['jquery','flip'], function($,Flip) {
+	$('.front').append('<p class="anweisung">Dreh mich</p>');
+	$('.back').append('<p class="anweisung">Kinderidee</p>');
+	$('.flipper').flip({
+		'trigger': 'hover',
+	});
+});
+
 require(['jquery', 'lazyload'], function($, Lazyload) {
 	$('.lazy').lazyload({
 		placeholder: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP4/x8AAwAB/2+Bq7YAAAAASUVORK5CYII=',
