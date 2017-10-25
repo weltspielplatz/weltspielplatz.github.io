@@ -2,12 +2,13 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<meta name="description" content="Der Weltspielplatz ist ein Projekt des Bezirksamts Treptow-Köpenick und des MyTheo e.V. Er ist der größte von Kindern erdachte Spielplatz und das engagierteste Projekt, um Kinder aus aller Welt zusammen zu bringen.">
+<meta name="description" content="Der Weltspielplatz ist ein Projekt des Bezirksamts Treptow-Köpenick und des My Theo e.V. Er ist der größte von Kindern erdachte Spielplatz und das engagierteste Projekt, um Kinder aus aller Welt zusammen zu bringen.">
 <meta name="viewport" content="width=768, user-scalable=yes, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link rel='stylesheet' id='stylesheet-weltspielplatz'  href='./css/custom-style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='stylesheet-weltspielplatz'  href='./css/style.css' type='text/css' media='all' />
 <link href="css/ticker-style.css" rel="stylesheet" type="text/css" />
 <link rel='stylesheet' id='animatecss'  href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css' type='text/css' media='all' />
+ <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
 
 <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
 <link rel="icon" href="favicon.png" type="image/png" />
@@ -44,7 +45,7 @@
 <title>Weltspielplatz im Treptower Park Berlin: Größter von Kindern erdachter Spielplatz</title>
 </head>
 <body id="start">
-<div class="container">
+<div class="container" id="app">
     <nav>
         <div class="row">
             <div class="col-xs-12">
@@ -53,7 +54,7 @@
                         <li class="hidden">Menü</li>
                         <li><a href="#start">Start</a></li>
                         <li><a href="#planung">Planung</a></li>
-                        <li><a href="#paedagogik">Pädagoik</a></li>
+                        <li><a href="#paedagogik">Pädagogik</a></li>
                         <li><a href="#panorama">Panorama</a></li>
                         <li><a href="#umsetzung">Umsetzung</a></li>
                         <li><a href="#engagement">Engagement</a></li>
@@ -77,20 +78,52 @@
 		</div>
     <div class="col-sm-6 col-xs-12 intro">
 			<div class="block height-x2 text">
-				<h2>Der Weltspielplatz ist ein Projekt des Bezirksamts Treptow-Köpenick und des
-MyTheo e.V.</h2><p>Er ist der größte von Kindern erdachte Spielplatz und das engagierteste Projekt, um Kinder aus aller Welt zusammen zu bringen. Gemeinsam
+				<h2>Der Weltspielplatz ist ein Projekt des Bezirksamts Treptow-Köpenick und des  <a href="http://mytheo.de" target="_blank" title="Mytheo Website">MyTheo e.V.</a></h2><p>Er ist der größte von Kindern erdachte Spielplatz und das engagierteste Projekt, um Kinder aus aller Welt zusammen zu bringen. Gemeinsam
 wollen wir eine bessere Welt für unsere Kinder schaffen, Mauern in den Köpfen einreißen und dafür sorgen, dass Kinder einen Ort haben, an dem sie miteinander aufwachsen und Spaß haben, egal woher sie kommen.</p>
 			</div>
 		</div>
 	</div>
 
-<div class="row termine fliesstext">
+<!-- <div class="row termine fliesstext">
   <div class="col-xs-12" style="">
 
-
   </div>
+</div> -->
 
+
+
+<div class="row news aktuelles fliesstext">
+  <div class="col-xs-12">
+    <h1 class="text-center">Aktuelles</h1>
+    <div class="loading" v-cloak></div>
+    <div is="newscomp" v-for="dienews in news" :news="dienews" ></div>
+  </div>
 </div>
+
+<newscomp inline-template id="news">
+  <div class="news-container" v-cloak>
+    <div class="row news-titel">
+      <div class="col-xs-12">
+        <a href="#"><h2>{{news.datum}}: {{news.titel}}</h2><i class="fa fa-plus" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <div class="row news-inhalt">
+      <div class="col-sm-12 bild-wrapper" style="">
+        <div class="bild-container">
+          <div v-for="bild in news.bilder">
+          <a :href="bild.href" v-if="bild.href" class="popBig"><img :src="bild.src" :class="'' + bild.width" :alt="bild.alt"/></a>
+          <img v-else :src="bild.src" :class="'' + bild.width" :alt="bild.alt"/></a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-sm-12 text-container">
+        <h2>{{news.titel}}</h2>
+        <p class="" v-html="news.inhalt"></p>
+      </div>
+    </div>
+  </div>
+</newscomp>
 
 	<div class="row kontinente fliesstext" id="planung">
 		<div class="col-xs-12">
@@ -103,7 +136,7 @@ wollen wir eine bessere Welt für unsere Kinder schaffen, Mauern in den Köpfen 
 Herkunft gehörte, suchten wir international ausgerichtete Schulen, die sich an der Umsetzung beteiligen wollten. Die BBIS (Berlin Brandenburg International School) haben wir schließlich für dieses Projekt ausgewählt. In drei Workshop-Sitzungen entwickelten die jungen Schüler der BBIS aus 12 Nationen kommend, im Alter zwischen 11 und 16 Jahren, viele Bebauungsvorschläge. Die Ideen der Kinder sind, wie könnte es anders sein, kreativ, bestechend einleuchtend und lebensfroh.<br>
 Die erste Aufgabe der Kinder war die Kontinente unserer Erde auf ihre Wesensmerkmale zu reduzieren. Doch schon bei den Kontinentumrissen folgten sie mehr ihrer Intuition als der Realität. Sie entschieden sich für eine freie Darstellung. Statt die realen Kontinentumrisse 1:1 umzusetzen, legten sie die Formen der Kontinente so an, dass sie zu den nachfolgenden Ideen passten und die Baufläche optimal ausgenutzt wird. So einfach sieht die Welt für Kinder aus!<br>
 Im nächsten Schritt entwickelten sie aus den selbstgewählten Ikonen der Kontinente einzigartige Spielgeräte.<br>
-Dazu stellten sie sich die grundlegende Frage: ‚Was fällt mir als erstes ein, wenn ich an diesen Kontinent denke?ʻ Im Folgenden sollen die herausragendsten Spielgeräteideen aufgezählt werden. Neben diesen gibt es für jeden Kontinent noch viele weitere Spielgeräte, die <a href="http://www.berlin.de/ba-treptow-koepenick/politik-und-verwaltung/aemter/strassen-und-gruenflaechenamt/gruen/weltspielplatz/artikel.58267.php" class="popBig" target="_blank">hier</a> dokumentiert sind.
+Dazu stellten sie sich die grundlegende Frage: ‚Was fällt mir als erstes ein, wenn ich an diesen Kontinent denke?ʻ Im Folgenden sollen die herausragendsten Spielgeräteideen aufgezählt werden. Neben diesen gibt es für jeden Kontinent noch viele weitere Spielgeräte.
 </p>
 		</div>
 	</div>
@@ -116,6 +149,9 @@ Dazu stellten sie sich die grundlegende Frage: ‚Was fällt mir als erstes ein,
 					<div class="flipper">
 						<div class="front">
 							<img class="img-responsive lazy" data-original="images/nordamerikaV.jpg" alt="Nord-Amerika Wolkenkratzer">
+						</div>
+						<div class="back">
+							<img class="img-responsive lazy" data-original="images/nordamerika-back.jpg" alt="Süd Amerika Fussballfeld">
 						</div>
 					</div>
 			</div>

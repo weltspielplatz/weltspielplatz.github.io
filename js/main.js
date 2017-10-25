@@ -53,16 +53,19 @@ require(['jquery', 'jqueryUI', 'scrollto'], function($, Scrolltop) {
 
 });
 
-require(['jquery', 'magnificPopup'], function($, MagnificPopup) {
-  $('.popBig').magnificPopup({
-    type: 'image',
-    gallery: {
-      enabled: true,
-      preload: [0, 2],
-      navigateByImgClick: true,
-    },
+var popup = function() {
+  require(['jquery', 'magnificPopup'], function($, MagnificPopup) {
+    $('.popBig').magnificPopup({
+      type: 'image',
+      gallery: {
+        enabled: true,
+        preload: [0, 2],
+        navigateByImgClick: true,
+      },
+    });
   });
-});
+};
+popup();
 
 require(['jquery', 'cyclotron'], function($, Cyclotron) {
   $('.pano').cyclotron({
@@ -115,6 +118,7 @@ require(['jquery','vuejs'], function($, Vue) {
         e.preventDefault();
         var button = $(this);
         accordion.action(button, frage);
+        popbig();
       });
       this.close(frage)
       //frage.eq(0).children('a').trigger('click');
@@ -159,23 +163,26 @@ require(['jquery','vuejs'], function($, Vue) {
       news: [{
         datum: '18.10.2017',
         titel: 'Weltspielplatz – es wird weitergebaut',
-        inhalt: 'Dem Straßen- und Grünflächenamt ist es gelungen, weitere Fördermittel für den Weltspielplatz zu akquirieren. Aus dem „Berliner Programm für Nachhaltige Entwicklung“ (BENE), welches u.a. aus Mitteln des Europäischen Fonds für Regionale Entwicklung(EFRE) gespeist wird, stehen Gelder für den Bau von Spielgeräten und für weitere Pflanzungen zur Verfügung.<br /><br />\
-    			Bis Sommer 2018 werden aus diesen Mitteln auf dem Spielplatz die Rocky Mountains und ein Teil der Anden entstehen, es werden die Wolkenkratzer in Nordamerika gebaut und der Grundbereich vom Nordpol errichtet. <br />\
+        inhalt: 'Dem Straßen- und Grünflächenamt ist es gelungen, weitere Fördermittel für den Weltspielplatz zu akquirieren. Aus dem „Berliner Programm für Nachhaltige Entwicklung“ (BENE), welches u.a. aus Mitteln des Europäischen Fonds für Regionale Entwicklung (EFRE) gespeist wird, stehen Gelder für den Bau von Spielgeräten und für weitere Pflanzungen zur Verfügung.<br /><br />\
+  			Bis Sommer 2018 werden aus diesen Mitteln auf dem Spielplatz die Rocky Mountains und ein Teil der Anden entstehen, es werden die Wolkenkratzer in Nordamerika gebaut und der Grundbereich vom Nordpol errichtet. <br />\
   			Die Kinder dürfen sich ebenso auf 3 Transportmittel freuen, mit denen sie dann schon einen Teil der Welt bereisen können: Einbaum, Eisbrecher und Flugzeug. Im Außenbereich umrahmt eine neue Pflanzung den Spielplatz. <br /><br />\
   			Mit bezirklichen Mitteln kann ein weiteres Highlight finanziert werden. Der dicke große gelbe Käse, der nach der Idee der Kinder für Europa steht, findet seinen Platz gleich neben dem künftigen Bauernhof. <br /><br />\
   			Im September 2017 beginnen die Arbeiten zunächst mit dem Aufbruch der Flächen und der Herstellung der Fundamente. Bis die ersten Teile vor Ort sichtbar werden, wird es noch etwas dauern, da die beauftragten Firmen zunächst die Konstruktionszeichnungen erstellen müssen und den Bau der Elemente in Ihren Werkstätten vorbereiten. <br /><br />\
   			Der Baubeginn hat sich zur letzten Information etwas verzögert. Grund hierfür ist, dass Vergabeverfahren teilweise wiederholt werden mussten, da keine annehmbaren Angebote vorlagen.</br></br>\
-        Projektförderung: Das Vorhaben Weltspielplatz (Projektlaufzeit: 09/2017 bis 09/2018) wird im Berliner Programm für Nachhaltige Entwicklung (BENE) gefördert aus Mitteln des Europäischen Fonds für Regionale Entwicklung und des Landes Berlin (Förderkennzeichen 1096-B6-A)<img src="images/forderung/eu_efre_zusatz_rechts_rgb.jpg" class="forderung" alt="efre"/><img src="images/forderung/SenUVK_flach_rgb.jpg" class="forderung" alt="berliner senat"/>',
+        Projektinformation: Das Vorhaben „Treptower Park – Teilneugestaltung im südlichen Parkteil sowie Weltspielplatz“ (Projektlaufzeit: 09/2016 bis 08/2020) wird im Berliner Programm für Nachhaltige Entwicklung (BENE) gefördert aus Mitteln des Europäischen Fonds für Regionale Entwicklung und des Landes Berlin (Förderkennzeichen 1096-B6-A)<img src="images/forderung/eu_efre_zusatz_rechts_rgb.jpg" class="forderung" alt="efre"/><img src="images/forderung/SenUVK_flach_rgb.jpg" class="forderung" alt="berliner senat"/>',
         bilder: [{
-          src: 'images/news/01baubeginn-04.jpg',
+          src: 'images/news/01baubeginn-05-600.jpg',
+          href: 'images/news/01baubeginn-05-1200.jpg',
           alt: 'Baubeginn 2017',
           width: 'voll'
         }, {
-          src: 'images/news/03baustelle-01.jpg',
+          src: 'images/news/03baustelle-01_600.jpg',
+          href: 'images/news/03baustelle-01_1200.jpg',
           alt: 'hier der Käse',
           width: 'halb'
         }, {
-          src: 'images/news/04-amerika.jpg',
+          src: 'images/news/04-amerika_600.jpg',
+          href: 'images/news/04-amerika_1200.jpg',
           alt: 'hier Rocky Mountains, Anden, Wolkenkratzer',
           width: 'halb'
         }
