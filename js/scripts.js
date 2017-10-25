@@ -90,6 +90,21 @@ function CSS3MultiColumn(){console.log('multicol loaded');var cssCache=new Objec
 
 $(document).ready(function ($) {
 
+
+var news = {
+	toggleNews: function() {
+		var button = $(document.getElementByClassName('news-toggle')),
+		p = p.prev();
+		console.log(button);
+		console.log(p);
+		button.on('click', function(){
+			p.toggleClass('show-overflow');
+			console.log('clicked');
+		})
+	}
+}
+news.toggleNews();
+
 var navigation = $('#navigation');
 var menuParentWidth = navigation.closest('.menu').css('width');
 
