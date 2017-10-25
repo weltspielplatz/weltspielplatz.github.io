@@ -164,7 +164,8 @@ require(['jquery','vuejs'], function($, Vue) {
   			Die Kinder dürfen sich ebenso auf 3 Transportmittel freuen, mit denen sie dann schon einen Teil der Welt bereisen können: Einbaum, Eisbrecher und Flugzeug. Im Außenbereich umrahmt eine neue Pflanzung den Spielplatz. <br /><br />\
   			Mit bezirklichen Mitteln kann ein weiteres Highlight finanziert werden. Der dicke große gelbe Käse, der nach der Idee der Kinder für Europa steht, findet seinen Platz gleich neben dem künftigen Bauernhof. <br /><br />\
   			Im September 2017 beginnen die Arbeiten zunächst mit dem Aufbruch der Flächen und der Herstellung der Fundamente. Bis die ersten Teile vor Ort sichtbar werden, wird es noch etwas dauern, da die beauftragten Firmen zunächst die Konstruktionszeichnungen erstellen müssen und den Bau der Elemente in Ihren Werkstätten vorbereiten. <br /><br />\
-  			Der Baubeginn hat sich zur letzten Information etwas verzögert. Grund hierfür ist, dass Vergabeverfahren teilweise wiederholt werden mussten, da keine annehmbaren Angebote vorlagen.',
+  			Der Baubeginn hat sich zur letzten Information etwas verzögert. Grund hierfür ist, dass Vergabeverfahren teilweise wiederholt werden mussten, da keine annehmbaren Angebote vorlagen.</br></br>\
+        Projektförderung: Das Vorhaben Weltspielplatz (Projektlaufzeit: 09/2017 bis 09/2018) wird im Berliner Programm für Nachhaltige Entwicklung (BENE) gefördert aus Mitteln des Europäischen Fonds für Regionale Entwicklung und des Landes Berlin (Förderkennzeichen 1096-B6-A)<img src="images/forderung/eu_efre_zusatz_rechts_rgb.jpg" class="forderung" alt="efre"/><img src="images/forderung/SenUVK_flach_rgb.jpg" class="forderung" alt="berliner senat"/>',
         bilder: [{
           src: 'images/news/01baubeginn-04.jpg',
           alt: 'Baubeginn 2017',
