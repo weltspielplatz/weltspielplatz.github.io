@@ -1,0 +1,21 @@
+{
+  "name": "weltspielplatz",
+  "devDependencies": {
+    "less": "latest",
+    "less-plugin-clean-css": "^1.5.1",
+    "nodemon": "^1.11.0",
+    "standard": "^10.0.2"
+  },
+  "scripts": {
+    "standard": "standard js/scripts.js",
+    "less": "lessc --clean-css style/style.less css/style.css",
+    "uglify-dev": "uglifyjs js/scripts.js -o js/scripts.min.js",
+    "uglify": "uglifyjs js/scripts.js --compress drop_console --mangle -o js/scripts.min.js",
+    "postcss": "postcss style/style.css -c style/postcss.config.js --replace",
+    "watch-js": "nodemon --ext js --watch js/scripts.js -x 'npm run uglify'",
+    "watch-js-dev": "nodemon --ext js --watch js/scripts.js -x 'npm run uglify-dev'",
+    "watch-less": "nodemon --ext less --watch style/style.less -x 'npm run less'",
+    "watch": "npm run watch-js & npm run watch-less",
+    "watch-dev": "npm run watch-js-dev & npm run watch-less"
+  }
+}

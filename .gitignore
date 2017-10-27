@@ -1,0 +1,17 @@
+node_modules/
+**/*log*
+*.ai
+@eaDir/
+cache/
+uploads/
+*.sw*
+*.DS_Store*
+*SynoEA*
+.DS_Store?
+.DS_Store
+backup-db/
+@eaDir
+languages/
+plugins/
+sedlex/
+!themes/
