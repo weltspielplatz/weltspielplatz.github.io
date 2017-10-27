@@ -139,7 +139,7 @@ require(['jquery','vuejs'], function($, Vue) {
         var sibling = dies.siblings('.news-inhalt');
         sibling.slideDown(200);
         console.log(sibling.children('.bild-wrapper'));
-        sibling.children('.bild-wrapper').animate({scrollLeft: '20px'}, 3000)
+        sibling.children('.bild-wrapper').animate({scrollLeft: '20px'}, 2200)
 
       }
     },
@@ -176,16 +176,21 @@ require(['jquery','vuejs'], function($, Vue) {
           alt: 'Baubeginn 2017',
           width: 'voll'
         }, {
-          src: 'images/news/03baustelle-01_600.jpg',
-          href: 'images/news/03baustelle-01_1200.jpg',
-          alt: 'hier der Käse',
-          width: 'halb'
-        }, {
-          src: 'images/news/04-amerika_600.jpg',
-          href: 'images/news/04-amerika_1200.jpg',
+          src: 'images/news/04-amerika03_600.jpg',
+          href: 'images/news/04-amerika03_1200.jpg',
           alt: 'hier Rocky Mountains, Anden, Wolkenkratzer',
           width: 'halb'
-        }
+        }, {
+          src: 'images/news/04-eisbrecher02_600.jpg',
+          href: 'images/news/04-eisbrecher02_1200.jpg',
+          alt: 'hier der Eisbrecher',
+          width: 'halb'
+        },  {
+          src: 'images/news/05-einbaum01_600.jpg',
+          href: 'images/news/05-einbaum01_1200.jpg',
+          alt: 'hier der Einbaum',
+          width: 'halb'
+        },
       ],
 
       },
@@ -206,7 +211,6 @@ require(['jquery','vuejs'], function($, Vue) {
     },
     mounted: function(){
       accordion.init();
-      console.log(this.news);
     },
   })
 
