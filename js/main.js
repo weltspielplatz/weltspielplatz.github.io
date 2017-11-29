@@ -160,7 +160,27 @@ require(['jquery','vuejs'], function($, Vue) {
     el: '#app',
 
     data: {
-      news: [{
+      news: [
+      {
+        datum: '28.11.2017',
+        titel: 'Der Eisbrecher hat seine Fahrt aufgenommen',
+        inhalt: 'Jetzt hat der Eisbrecher auf dem Landweg Fahrt aufgenommen und hat bereits den Weltspielplatz erreicht. Seine Einzelteile sind abgeladen und werden gerade aufgebaut. An Bord des Eisbrechers kann man ganz entspannt dem Winter entgegen sehen. Er bricht jetzt schon eine Schneise und macht den Weg für die kommenden Spielgeräte frei. Freut euch drauf!',
+        bilder: [{
+          src: 'images/news/eisbrecher-00_600.jpg',
+          href: 'images/news/eisbrecher-00_1200.jpg',
+          alt: 'Lieferung des Eisbrechers',
+        }, {
+          src: 'images/news/eisbrecher-01_600.jpg',
+          href: 'images/news/eisbrecher-01_1200.jpg',
+          alt: 'Planungsskizze des Eisbrechers und Lage',
+        }, {
+          src: 'images/news/eisbrecher-02_600.jpg',
+          href: 'images/news/eisbrecher-02_1200.jpg',
+          alt: 'Aufbau des Eisbrechers',
+         }
+      ],
+      },
+      {
         datum: '18.10.2017',
         titel: 'Weltspielplatz – es wird weitergebaut',
         inhalt: 'Dem Straßen- und Grünflächenamt ist es gelungen, weitere Fördermittel für den Weltspielplatz zu akquirieren. Aus dem „Berliner Programm für Nachhaltige Entwicklung“ (BENE), welches u.a. aus Mitteln des Europäischen Fonds für Regionale Entwicklung (EFRE) gespeist wird, stehen Gelder für den Bau von Spielgeräten und für weitere Pflanzungen zur Verfügung.<br /><br />\
