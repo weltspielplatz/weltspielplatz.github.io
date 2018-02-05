@@ -903,7 +903,7 @@ div.kontinentkarten .block {
   padding-right: 14px;
 }
 .aktuelles div.news-inhalt .bild-container div {
-  width: 500px;
+  width: auto;
   height: auto;
   float: left;
   margin: 14px 0px 14px;
