@@ -118,7 +118,7 @@ require(['jquery','vuejs'], function($, Vue) {
         e.preventDefault();
         var button = $(this);
         accordion.action(button, frage);
-        popbig();
+        popup();
       });
       this.close(frage)
       //frage.eq(0).children('a').trigger('click');
