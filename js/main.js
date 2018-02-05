@@ -162,6 +162,36 @@ require(['jquery','vuejs'], function($, Vue) {
     data: {
       news: [
       {
+        datum: '05.01.2018',
+        titel: 'Die Rockies und die Anden erheben sich langsam',
+        inhalt: 'Langsam erheben sich aus den Produktionshallen die m&auml;chtigen Klettergebirge. Sie reichen von den Rocky Mountains im Norden Amerikas, bis zu den Anden in S&uuml;d-Amerika. An dieser immer etwas schwingenden Seilkonstruktion k&ouml;nnen die Kinder ihre K&ouml;rperbeherrschung und ihren Mut unter Beweis stellen. Hier werden Grundlagen f&uuml;r die Koordination der H&auml;nde, Arme und Beine, sowie ihr Geschick im Gleichgewichthalten entwickelt. Das Netz ist relativ grobmaschig, die Kinder m&uuml;ssen wie bei einer echten Bergbesteigung eine gute Kletterstrategie entwickeln. Es wird kleine Trittsteine im Netz geben, auf denen man ausruhen, h&uuml;pfen und schwingen kann. Das schneewei&szlig;e Gipfelkreuz und der Mastkorb sind schon von weitem zu sehen. Auf den h&auml;ngenden Pendelsitzen k&ouml;nnen die Kinder die Seele baumeln lassen und sich wie ein Adler in den L&uuml;ften f&uuml;hlen. &Uuml;ber eine schwingende Seilbr&uuml;cke geht es zu den verwundenen Seilnetzfl&auml;chen, den Anden. Hier wartet die nächste Herausforderung für unsere Gipfelstürmer. Wenn die Witterung es zul&auml;sst und die Fundamente&#x2029;gebaut werden k&ouml;nnen, kann der Aufbau vor Ort beginnen. Im Anschluss wird ein Fallschautz unter den Rocky Mountains gebaut werden, der f&uuml;r die Sicherheit der Kinder sorgen wird. Die Bauarbeiten werden noch bis ins Fr&uuml;hjahr andauern, aber seid gespannt – wir halten euch auf dem Laufenden!',
+        bilder: [{
+          src: 'images/news/rockies/rockymountains-3-450.jpg',
+          href: 'images/news/rockies/rockymountains-3-1200.jpg',
+          alt: 'Rockies in der Planung'
+        }, {
+          src: 'images/news/rockies/rockymountains-5-450.jpg',
+          href: 'images/news/rockies/rockymountains-5-1200.jpg',
+          alt: 'Rocky Mountains entstehen am Comuter'
+        }, {
+          src: 'images/news/rockies/rockymountains-1-450.jpg',
+          href: 'images/news/rockies/rockymountains-1-1200.jpg',
+          alt: 'Rocky Mountains werden aufgebaut'
+        }, {
+          src: 'images/news/rockies/rockymountains-6-450.jpg',
+          href: 'images/news/rockies/rockymountains-6-1200.jpg',
+          alt: 'Der Mastkorb vom Gipfelkreuz'
+        }, {
+          src: 'images/news/rockies/rockymountains-2-450.jpg',
+          href: 'images/news/rockies/rockymountains-2-1200.jpg',
+          alt: 'Das lose verpackte Klettergerüst'
+        }, {
+          src: 'images/news/rockies/anden-1-450.jpg',
+          href: 'images/news/rockies/anden-1-1200.jpg',
+          alt: 'Die Anden in Einzelteilen'
+        }
+      ]
+    }, {
         datum: '28.11.2017',
         titel: 'Der Eisbrecher hat seine Fahrt aufgenommen',
         inhalt: 'Jetzt hat der Eisbrecher auf dem Landweg Fahrt aufgenommen und hat bereits den Weltspielplatz erreicht. Seine Einzelteile sind abgeladen und werden gerade aufgebaut. An Bord des Eisbrechers kann man ganz entspannt dem Winter entgegen sehen. Er bricht jetzt schon eine Schneise und macht den Weg für die kommenden Spielgeräte frei. Freut euch drauf!',
