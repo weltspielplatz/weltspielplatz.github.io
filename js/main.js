@@ -162,6 +162,37 @@ require(['jquery','vuejs'], function($, Vue) {
     data: {
       news: [
       {
+        datum: '02.05.2018',
+        titel: 'Der Polarstern ist gelandet',
+        inhalt: 'Der Eisbrecher mit dem Namen „Polarstern“ ist seit letzter Woche öffentlich zum Spielen freigegeben. Die Schiffswände sind mit Bänken zum Ausruhen bestückt. Die beiden Schornsteine sind begehbare Türmchen, von denen man jetzt einen guten Blick über den Spielplatz hat. Mit dem Sprachrohr kann der diensthabende Kapitän den neuen Kurs an die Kinder-Crew durchgeben.'+
+				'<br><br><br>Projektinformation: <br>Das Vorhaben &bdquo;Treptower Park &ndash; Teilneugestaltung im s&uuml;dlichen Parkteil sowie Weltspielplatz&ldquo; (Projektlaufzeit: 09/2016 bis 08/2020) wird im Berliner Programm f&uuml;r Nachhaltige Entwicklung (BENE) gef&ouml;rdert aus Mitteln des Europ&auml;ischen Fonds f&uuml;r Regionale Entwicklung und des Landes Berlin (F&ouml;rderkennzeichen 1096-B6-A)<img src="images/forderung/eu_efre_zusatz_rechts_rgb.jpg" class="forderung" alt="efre"/><img src="images/forderung/SenUVK_flach_rgb.jpg" class="forderung" alt="berliner senat"/>',
+        bilder: [{
+          src: 'images/news/eisbrecher/01-600.jpg',
+          href: 'images/news/eisbrecher/01-1400.jpg',
+          alt: 'Eisbrecher von der Seite'
+        }, {
+          src: 'images/news/eisbrecher/02-600.jpg',
+          href: 'images/news/eisbrecher/02-1400.jpg',
+          alt: 'Polarstern auf dem Namensschild'
+        }, {
+          src: 'images/news/eisbrecher/03-600.jpg',
+          href: 'images/news/eisbrecher/03-1400.jpg',
+          alt: 'Bänke an den Schiffswänden'
+        }, {
+          src: 'images/news/eisbrecher/04-600.jpg',
+          href: 'images/news/eisbrecher/04-1400.jpg',
+          alt: 'Das Sprachrohr'
+        }, {
+          src: 'images/news/eisbrecher/05-600.jpg',
+          href: 'images/news/eisbrecher/05-1400.jpg',
+          alt: 'Der Turm von innen'
+        }, {
+          src: 'images/news/eisbrecher/06-600.jpg',
+          href: 'images/news/eisbrecher/06-1400.jpg',
+          alt: 'Schiff von vorne'
+        }
+      ]
+    },{
         datum: '05.01.2018',
         titel: 'Die Rockies und die Anden erheben sich langsam',
         inhalt: 'Langsam erheben sich aus den Produktionshallen die m&auml;chtigen Klettergebirge. Sie reichen von den Rocky Mountains im Norden Amerikas, bis zu den Anden in S&uuml;d-Amerika. An dieser immer etwas schwingenden Seilkonstruktion k&ouml;nnen die Kinder ihre K&ouml;rperbeherrschung und ihren Mut unter Beweis stellen. Hier werden Grundlagen f&uuml;r die Koordination der H&auml;nde, Arme und Beine, sowie ihr Geschick im Gleichgewichthalten entwickelt. <br>Das Netz ist relativ grobmaschig, die Kinder m&uuml;ssen wie bei einer echten Bergbesteigung eine gute Kletterstrategie entwickeln. Es wird kleine Trittsteine im Netz geben, auf denen man ausruhen, h&uuml;pfen und schwingen kann. Das schneewei&szlig;e Gipfelkreuz und der Mastkorb sind schon von weitem zu sehen. Auf den h&auml;ngenden Pendelsitzen k&ouml;nnen die Kinder die Seele baumeln lassen und sich wie ein Adler in den L&uuml;ften f&uuml;hlen. &Uuml;ber eine schwingende Seilbr&uuml;cke geht es zu den verwundenen Seilnetzfl&auml;chen, den Anden. Hier wartet die nächste Herausforderung für unsere Gipfelstürmer. <br>Wenn die Witterung es zul&auml;sst und die Fundamente&#x2029;gebaut werden k&ouml;nnen, kann der Aufbau vor Ort beginnen. Im Anschluss wird ein Fallschautz unter den Rocky Mountains gebaut werden, der f&uuml;r die Sicherheit der Kinder sorgen wird. Die Bauarbeiten werden noch bis ins Fr&uuml;hjahr andauern, aber seid gespannt – wir halten euch auf dem Laufenden!'+
