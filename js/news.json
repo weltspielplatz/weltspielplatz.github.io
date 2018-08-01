@@ -1,10 +1,38 @@
 {
   "news": [
+		{
+      "datum": "25.07.2018",
+      "titel": "Der Baufortschritt fordert Opfer",
+      "inhalt": "Derzeit herrscht auf dem Weltspielplatz im Treptower Park eine rege Bautätigkeit. Der Käse, die Rocky Mountains und die Wolkenkratzer stehen in den Werkstätten der ausführenden Firmen bereits zum Einbau bereit. In Vorbereitung dieses Einbaus erfolgt auf den Spielflächen im Monat <strong>August</strong> der Einbau von Kunststoff. Da hierfür die Lagerung von großen Mengen Material erforderlich ist und die frisch eingebauten Beläge bis zur Aushärtung geschützt sein müssen, ist eine <strong>Komplettsperrung</strong> des Spielplatzes in diesem Zeitraum erforderlich. Dies gilt auch für die bis jetzt noch nutzbaren Flächen um den Eisbrecher, den Bolzplatz und die Antarktis. Wenn die Kunststoffarbeiten fertiggestellt sind, kann dieser Teil wieder bespielt werden. Die Freigabe der neu bestückten Flächen erfolgt voraussichtlich zum Jahresende, da neben oben genannten Spielgeräten noch der Einbau des Nordpols, des Bauernhofes und der Klettergiraffe erfolgt.<br><br>",
+      "projektinfo": "",
+      "bilder": [
+        {
+          "src": "images/news/fortschritt-1808/01-400.jpg",
+          "href": "images/news/fortschritt-1808/01-1200.jpg",
+          "alt": "Die Baustelle Nord- und Südamerika"
+        },
+        {
+          "src": "images/news/fortschritt-1808/02-400.jpg",
+          "href": "images/news/fortschritt-1808/02-1200.jpg",
+          "alt": "Der Käse in Europa"
+        },
+        {
+          "src": "images/news/fortschritt-1808/03-400.jpg",
+          "href": "images/news/fortschritt-1808/03-1200.jpg",
+          "alt": "Die Säulen zeigen den Übergang der Rockies zu den Anden"
+        },
+        {
+          "src": "images/news/fortschritt-1808/04-400.jpg",
+          "href": "images/news/fortschritt-1808/04-1200.jpg",
+          "alt": "Die Fundamente für die Wolkenkratzer"
+        }
+      ]
+    },  
     {
       "datum": "24.07.2018",
       "titel": "In Europa wächst der Käse",
       "inhalt": "‚Zu Eurpoa gehört Käse‘, haben sich die Kinder gedacht, als sie die Spielgeräte planten. In der Tat hat Käse in Europa eine lange Tradition und hat sich auf dem europäischen Kontinent mit sehr unterschiedliche Geschmacksrichtungen entwickelt. 2018 liegt der Pro-Kopf-Verbrauch in Europa durchschnittlich bei 12,5 Kg, Tendenz steigend. Der Käse auf dem Weltspielplatz wird ein löchriger, damit die Kinder den Käse von innen erleben können. Durchrutschen, durchklettern und verstecken, aber ohne dass man sich die Nase zuhalten muss, wie manche reflexartig machen, wenn in der Nähe ein Schweizer Käse ist.<br>",
-      "projektinfo": "Projektinformation: <br>Das Vorhaben \n&bdquo;Treptower Park &ndash; Teilneugestaltung im \ns&uuml;dlichen Parkteil sowie Weltspielplatz&ldquo; \n(Projektlaufzeit: 09/2016 bis 08/2020) wird im Berliner Programm \nf&uuml;r Nachhaltige Entwicklung (BENE) gef&ouml;rdert aus \nMitteln des Europ&auml;ischen Fonds f&uuml;r Regionale \nEntwicklung und des Landes Berlin (F&ouml;rderkennzeichen \n1096-B6-A)<img src=\"images/forderung/eu_efre_zusatz_rechts_rgb.jpg\"\n class=\"forderung\" alt=\"efre\"/><img \nsrc=\"images/forderung/SenUVK_flach_rgb.jpg\" class=\"forderung\" \nalt=\"berliner senat\"/>",
+      "projektinfo": "Projektinformation: <br>Das Vorhaben &bdquo;Treptower Park &ndash; Teilneugestaltung im s&uuml;dlichen Parkteil sowie Weltspielplatz&ldquo; (Projektlaufzeit: 09/2016 bis 08/2020) wird im Berliner Programm f&uuml;r Nachhaltige Entwicklung (BENE) gef&ouml;rdert aus Mitteln des Europ&auml;ischen Fonds f&uuml;r Regionale Entwicklung und des Landes Berlin (F&ouml;rderkennzeichen 1096-B6-A)<img src=\"images/forderung/eu_efre_zusatz_rechts_rgb.jpg\" class=\"forderung\" alt=\"efre\"/><img src=\"images/forderung/SenUVK_flach_rgb.jpg\" class=\"forderung\" alt=\"berliner senat\"/>",
       "bilder": [
         {
           "src": "images/news/kaese/01-400.jpg",
