@@ -1,6 +1,39 @@
 {
   "news": [
-		{
+    {
+      "datum": "23.10.2018",
+      "titel": "Der Spielplatz bekommt Zuwachs: in Amerika",
+      "inhalt": "Der Weltspielplatz hat in den letzten zwei Monaten ordentlich Zuwachs bekommen. Doch die Bauarbeiten zu den neuen Spielgeräten sind noch nicht vollständig abgeschlossen. Die Bilder zeigen den aktuellen Stand.<br>Auf dem nordamerikanischen Kontinent sind die Wolkenkratzer, die Hollywood-Sterne und die Rocky Mountains hinzugekommen. Die Rockies (grüne Seile) gehen nach Südamerika in die Anden über (gelbe Seile). Das Klettergebirge besteht aus einer stabilen Seilkonstruktion und ist auf einem weichen Kunststoffboden errichtet. In der Mitte der Rocky Mountains ragt das Gipfelkreuz in den Himmel, das von einem Aussichtskorb eingefasst ist.<br>Die Klettertürme stehen für die amerikanischen Metropolen mit ihren an den Wolken kratzenden Hochhäusern. Sie sehen jetzt noch etwas nackt aus. Darum werden sie auf das Gerüst noch Verblendungen und Klettergriffe montiert bekommen. Man wird durch die drei Türme mit Seilen und Strickleitern hindurchklettern können und über Verbindungsgänge von einem zu anderen gelangen.<br>Um wirklich sichere Spielgeräte aufzustellen brauchen wir schließlich noch den TÜV, der die Endabnahme macht. Weil die vielen Prozesse durch verlängerte Lieferfristen bestimmter Materialien zum Teil verzögert ablaufen, können wir die Baustelle  erst nach Ablauf dieses Jahres wieder öffnen und freuen uns schon, euch den Neuzuwachs zum Bespielen freigeben zu können.<br><br>",
+      "projektinfo": "Projektinformation: <br>Das Vorhaben &bdquo;Treptower Park &ndash; Teilneugestaltung im s&uuml;dlichen Parkteil sowie Weltspielplatz&ldquo; (Projektlaufzeit: 09/2016 bis 08/2020) wird im Berliner Programm f&uuml;r Nachhaltige Entwicklung (BENE) gef&ouml;rdert aus Mitteln des Europ&auml;ischen Fonds f&uuml;r Regionale Entwicklung und des Landes Berlin (F&ouml;rderkennzeichen 1096-B6-A)<img src=\"images/forderung/eu_efre_zusatz_rechts_rgb.jpg\" class=\"forderung\" alt=\"efre\"/><img src=\"images/forderung/SenUVK_flach_rgb.jpg\" class=\"forderung\" alt=\"berliner senat\"/>",
+      "bilder": [
+        {
+          "src": "images/news/fortschritt-1810/01-400.jpg",
+          "href": "images/news/fortschritt-1810/01-1200.jpg",
+          "alt": "Die neuen Geräte in Amerkia"
+        },
+        {
+          "src": "images/news/fortschritt-1810/02-400.jpg",
+          "href": "images/news/fortschritt-1810/02-1200.jpg",
+          "alt": "Die Wolkenkratzer als Klettertürme"
+        },
+        {
+          "src": "images/news/fortschritt-1810/03-400.jpg",
+          "href": "images/news/fortschritt-1810/03-1200.jpg",
+          "alt": "Hollywood-Sterne, die Stars of fame"
+        },
+        {
+          "src": "images/news/fortschritt-1810/04-400.jpg",
+          "href": "images/news/fortschritt-1810/04-1200.jpg",
+          "alt": "Die Rocky Mountains"
+        },
+        {
+          "src": "images/news/fortschritt-1810/05-400.jpg",
+          "href": "images/news/fortschritt-1810/05-1200.jpg",
+          "alt": "Die Anden"
+        }
+      ]
+    },
+    {
       "datum": "25.07.2018",
       "titel": "Der Baufortschritt fordert Opfer",
       "inhalt": "Derzeit herrscht auf dem Weltspielplatz im Treptower Park eine rege Bautätigkeit. Der Käse, die Rocky Mountains und die Wolkenkratzer stehen in den Werkstätten der ausführenden Firmen bereits zum Einbau bereit. In Vorbereitung dieses Einbaus erfolgt auf den Spielflächen im Monat <strong>August</strong> der Einbau von Kunststoff. Da hierfür die Lagerung von großen Mengen Material erforderlich ist und die frisch eingebauten Beläge bis zur Aushärtung geschützt sein müssen, ist eine <strong>Komplettsperrung</strong> des Spielplatzes in diesem Zeitraum erforderlich. Dies gilt auch für die bis jetzt noch nutzbaren Flächen um den Eisbrecher, den Bolzplatz und die Antarktis. Wenn die Kunststoffarbeiten fertiggestellt sind, kann dieser Teil wieder bespielt werden. Die Freigabe der neu bestückten Flächen erfolgt voraussichtlich zum Jahresende, da neben oben genannten Spielgeräten noch der Einbau des Nordpols, des Bauernhofes und der Klettergiraffe erfolgt.<br><br>",
@@ -27,7 +60,7 @@
           "alt": "Die Fundamente für die Wolkenkratzer"
         }
       ]
-    },  
+    },
     {
       "datum": "24.07.2018",
       "titel": "In Europa wächst der Käse",
