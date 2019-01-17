@@ -153,7 +153,7 @@ require(['jquery','vuejs'], function($, Vue) {
     props: ['news'],
     template: '#news'
   })
-  
+
   $.getJSON('js/news.json', function(data){
   	app = new Vue({
     	el: '#app',
@@ -164,6 +164,6 @@ require(['jquery','vuejs'], function($, Vue) {
   	})
   })
 
-  
+
 
 })
