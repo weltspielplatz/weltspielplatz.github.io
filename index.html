@@ -9,6 +9,8 @@
 <link href="css/ticker-style.css" rel="stylesheet" type="text/css" />
 <link rel='stylesheet' id='animatecss'  href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css' type='text/css' media='all' />
  <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" integrity="sha384-dNpIIXE8U05kAbPhy3G1cz+yZmTzA6CY8Vg/u2L9xRnHjJiAK76m2BIEaSEV+/aU" crossorigin="anonymous">
+ <link rel="stylesheet" href="js/owl/assets/owl.carousel.min.css">
+ <link rel="stylesheet" href="js/owl/assets/owl.theme.default.min.css">
 
 <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
 <link rel="icon" href="favicon.png" type="image/png" />
@@ -96,7 +98,7 @@ wollen wir eine bessere Welt für unsere Kinder schaffen, Mauern in den Köpfen 
   <div class="col-xs-12">
     <h1 class="text-center">Aktuelles</h1>
     <div class="loading" v-cloak></div>
-    <div is="newscomp" v-for="dienews in news" :news="dienews" ></div>
+    <div is="newscomp" v-if="news" v-for="singleNews in news" :news="singleNews" ></div>
   </div>
 </div>
 
@@ -141,27 +143,80 @@ Dazu stellten sie sich die grundlegende Frage: ‚Was fällt mir als erstes ein,
 		</div>
 	</div>
 
-
-
-	<div class="row kontinentkarten nord-amerika">
-		<div class="col-xs-6 col-sm-6">
-			<div class="block">
-					<div class="flipper">
-						<div class="front">
-							<img class="img-responsive lazy" data-original="images/nordamerikaV.jpg" alt="Nord-Amerika Wolkenkratzer">
-						</div>
-						<div class="back">
-							<img class="img-responsive lazy" data-original="images/nordamerika-back.jpg" alt="Süd Amerika Fussballfeld">
-						</div>
-					</div>
-			</div>
+  <div class="row kontinente fliesstext" id="erfolge">
+		<div class="col-xs-12">
+			<h1 class="text-center">Fertiggestellte Spielgeräte</h1>
 		</div>
+	</div>
+	<div class="row kontinente fliesstext margin-auto" style="margin-bottom: 50px">
+    <div class="center-block" style="width: 100%;">
+      <div class="col-xs-4 checklist">
+        <h2>Nord-Amerika</h2>
+        <ul>
+          <li>Wolkenkratzer</li>
+          <li>Flugzeug</li>
+          <li>Rocky Mountains</li>
+          <li>Stars of Fame / Hollywoodsterne</li>
+        </ul>
+        <h2>Süd-Amerika</h2>
+  			<ul>
+          <li>Anden</li>
+          <li>Fußballfeld mit Ballfang- und Torelementen</li>
+        </ul>
+      </div>
+      <div class="col-xs-4 checklist">
+
+        <h2>Afrika</h2>
+  			<ul>
+          <li>Giraffe</li>
+          <li>Savannenbaum mit Anschluss an Giraffe</li>
+        </ul>
+        <h2>Europa</h2>
+  			<ul>
+          <li>Bauernhof</li>
+          <li>Wippende Hühner</li>
+          <li>Käse</li>
+        </ul>
+        <h2>Asien</h2>
+  			<ul>
+          <li>Seilbahn</li>
+        </ul>
+
+      </div>
+      <div class="col-xs-4 checklist">
+        <h2>Nordpol</h2>
+  			<ul>
+          <li>Treffpunkt Nordpol</li>
+        </ul>
+
+        <h2>Südpol</h2>
+  			<ul>
+          <li>Eisberg mit Eishüpfschollen</li>
+          <li>Pinguine</li>
+          <li>Eisbrecher</li>
+          <li>Seehundbank</li>
+        </ul>
+  		</div>
+    </div>
+	</div>
+
+  <div class="row kontinentkarten nord-amerika">
+    <div class="col-xs-6 col-sm-6">
+      <div class="block">
+        <div class="owl-carousel owl-theme">
+          <img class="img-responsive lazy" data-original="images/nordamerikaV.jpg" alt="Nord-Amerika Wolkenkratzer">
+          <img class="img-responsive owl-lazy" data-src="images/nordamerika-back.jpg" alt="Nord-Amerika entsteht am Computer">
+          <img class="img-responsive owl-lazy" data-src="images/nordamerika-1901.jpg" alt="Nord-Amerika Wolkenkratzer">
+          <img class="img-responsive owl-lazy" data-src="images/nordamerika-1901-3.jpg" alt="Nord-Amerika Wolkenkratzer">
+        </div>
+      </div>
+    </div>
 		<div class="col-xs-6 col-sm-6 text">
 			<div class="block">
 				<h2>
 					Nord-Amerika
 				</h2>
-				<p>Wolkenkratzer sind das Sinnbild des Kontinents. Keine große nord-amerikanische Stadt kommt ohne sie aus. Umgesetzt in großen Klettertürmen mit Röhrenrutsche, Kletterebenen und Verbindungsgängen wird aus ihnen ein großer Spaß.</p>
+				<p>Die Wolkenkratzer sind für viele ein Sinnbild Nord-Amerikas. Sie prägen die Skyline vieler großer Städte. Als Klettertürme wurden sie hier umgesetzt, mit Röhrenrutsche, verschiedenen Kletterebenen und Verbindungsgängen. Eine kleine Kletterstadt ist entstanden.</p>
 			</div>
 		</div>
 	</div>
@@ -170,35 +225,24 @@ Dazu stellten sie sich die grundlegende Frage: ‚Was fällt mir als erstes ein,
 			<div class="block"><h2>
 				Süd-Amerika
 			</h2>
-			<p>Für Südamerika planten die Kinder ein mit Azteken-Schätzen verziertes Fußballfeld inmitten der Anden. Das Fußballfeld ist schon fertig und es wird bereits heute schon fleißig gekickt.</p></div>
+			<p>Für Süd-Amerika planten die Kinder ein mit Azteken-Schätzen verziertes Fußballfeld inmitten der Anden, der Verbindung zu Nord-Amerika. Große Fußballnationen haben ihre Heimat in Südamerika aber vielleicht kommt der nächste Fußballprofi vom Weltspielplatz.</p></div>
 		</div>
 		<div class="col-xs-12 col-sm-6">
 			<div class="block">
-				<div class="flip-container">
-					<div class="flipper">
-						<div class="front">
-							<img class="img-responsive lazy" data-original="images/suedamerikaV.jpg" alt="Süd Amerika Fussballfeld">
-						</div>
-						<div class="back">
-							<img class="img-responsive lazy" data-original="images/entwurf/sued-amerika.jpg" alt="Süd Amerika Fussballfeld">
-						</div>
-					</div>
-				</div>
+        <div class="owl-carousel owl-theme">
+          <img class="img-responsive lazy" data-original="images/suedamerikaV.jpg" alt="Süd Amerika Fussballfeld">
+          <img class="img-responsive owl-lazy" data-src="images/entwurf/sued-amerika.jpg" alt="Süd Amerika Fussballfeld">
+          <img class="img-responsive owl-lazy" data-src="images/suedamerika-1901.jpg" alt="Süd Amerika Fussballfeld">
+        </div>
 			</div>
 		</div>
 	</div>
 	<div class="row kontinentkarten australien">
 		<div class="col-xs-12 col-sm-6">
 			<div class="block">
-				<div class="flip-container">
-					<div class="flipper">
-						<div class="front">
-							<img class="img-responsive lazy" data-original="images/ayersrockV.jpg" alt="Fledermausschaukel in Australien">
-						</div>
-						<div class="back">
-							<img class="img-responsive lazy" data-original="images/entwurf/australien.jpg" alt="Fledermausschaukel in Australien">
-						</div>
-					</div>
+        <div class="owl-carousel owl-theme">
+          <img class="img-responsive lazyowl" data-original="images/ayersrockV.jpg" alt="Fledermausschaukel in Australien">
+					<img class="img-responsive owl-lazy" data-src="images/entwurf/australien.jpg" alt="Fledermausschaukel in Australien">
 				</div>
 			</div>
 		</div>
@@ -214,19 +258,16 @@ Dazu stellten sie sich die grundlegende Frage: ‚Was fällt mir als erstes ein,
 			<div class="block"><h2>
 				Afrika
 			</h2>
-			<p>Afrika soll eine am Kletterbaum fressende Giraffe symbolisieren. An ihren Beinen klettert man auf den Rücken, am langen Hals entlang, schwingt sich in den Kletterbaum weiter oder rutscht an ihrem Hinterteil nach unten.</p></div>
+			<p>Hier steht die Giraffe aus der afrikanischen Savanne. Dank ihres langen Halses kommt sie zum Fressen gut an den Kletterbaum. Vom Baum aus, kann man auf ihren Rücken klettern. Dann läuft man den langen Hals entlang und rutscht an ihrem Hinterteil wieder nach unten.</p></div>
 		</div>
 		<div class="col-xs-12 col-sm-6">
-			<div class="block">
-				<div class="flip-container">
-					<div class="flipper">
-						<div class="front">
-							<img class="img-responsive lazy" data-original="images/afrikaV.jpg" alt="Giraffe frisst in Afrika">
-						</div>
-						<div class="back">
-							<img class="img-responsive lazy" data-original="images/entwurf/afrika.jpg" alt="Giraffe frisst in Afrika">
-						</div>
-					</div>
+      <div class="block">
+        <div class="owl-carousel owl-theme">
+					<img class="img-responsive lazyowl" data-original="images/afrikaV.jpg" alt="Giraffe frisst in Afrika">
+          <img class="img-responsive owl-lazy" data-src="images/giraffe-entwurf.jpg" alt="Giraffe im Entwurf">
+          <img class="img-responsive owl-lazy" data-src="images/giraffe-entwurf2.jpg" alt="Giraffe im Entwurf">
+					<img class="img-responsive owl-lazy" data-src="images/entwurf/afrika.jpg" alt="Giraffe frisst in Afrika">
+          <img class="img-responsive owl-lazy" data-src="images/giraffe-1901.jpg" alt="Giraffe frisst in Afrika">
 				</div>
 			</div>
 		</div>
@@ -234,15 +275,9 @@ Dazu stellten sie sich die grundlegende Frage: ‚Was fällt mir als erstes ein,
 	<div class="row kontinentkarten asien">
 		<div class="col-xs-12 col-sm-6">
 			<div class="block">
-				<div class="flip-container">
-					<div class="flipper">
-						<div class="front">
-							<img class="img-responsive lazy" data-original="images/chinesischemauerV.jpg" alt="Chinesische Mauer in Asien">
-						</div>
-						<div class="back">
-							<img class="img-responsive lazy" data-original="images/entwurf/asien.jpg" alt="Asiatischer Dschungel">
-						</div>
-					</div>
+        <div class="owl-carousel owl-theme">
+					<img class="img-responsive lazyowl" data-original="images/chinesischemauerV.jpg" alt="Chinesische Mauer in Asien">
+					<img class="img-responsive owl-lazy" data-src="images/entwurf/asien.jpg" alt="Asiatischer Dschungel">
 				</div>
 			</div>
 		</div>
@@ -259,37 +294,30 @@ Dazu stellten sie sich die grundlegende Frage: ‚Was fällt mir als erstes ein,
 			<div class="block"><h2>
 				Nord- und Südpol
 			</h2>
-			<p>Im Südpol gibt es putzige Pinguine zum Wippen. Der Nordpol wird mit der Forscherstation der zentrale Treffpunkt werden. Ein überdachtes, mehrstufiges, kreisrundes, 10 Meter breites Sitzmöbel, leicht erhöht, so dass man nach allen Kontinenten einen guten Blick hat.</p></div>
+			<p>Der Nordpol ist mit der Forscherstation der zentrale Treffpunkt. Ein überdachtes, dreistufiges, rund 10 Meter breites Sitzmöbel, leicht erhöht, so dass man nach allen Kontinenten einen guten Blick hat. Die Lichteinlässe im Dach erinnern an Polarlichter.</p></div>
 		</div>
 		<div class="col-xs-12 col-sm-6">
 			<div class="block">
-				<div class="flip-container">
-					<div class="flipper">
-						<div class="front">
-							<img class="img-responsive lazy" data-original="images/arktisV.jpg" alt="Arktis und Antarktis">
-						</div>
-						<div class="back">
-							<img class="img-responsive lazy" data-original="images/entwurf/nordpol.jpg" alt="Forscherstation am Nordpol">
-						</div>
-					</div>
-				</div>
+        <div class="owl-carousel owl-theme">
+          <img class="img-responsive lazyowl" data-original="images/arktisV.jpg" alt="Arktis und Antarktis">
+          <img class="img-responsive owl-lazy" data-src="images/arktis-nordpol-entwurf.jpg" alt="Entwurf der Forscherstation">
+          <img class="img-responsive owl-lazy" data-src="images/entwurf/nordpol.jpg" alt="Forscherstation am Nordpol">
+          <img class="img-responsive owl-lazy" data-src="images/arktis-1901.jpg" alt="Forscherstation am Nordpol">
+        </div>
 			</div>
 		</div>
 	</div>
 	<div class="row kontinentkarten europa">
 		<div class="col-xs-12 col-sm-6">
 			<div class="block">
-				<div class="flip-container">
-					<div class="flipper">
-						<div class="front">
-							<img class="img-responsive lazy" data-original="images/kaeseV.jpg" alt="Käse in Europa">
-						</div>
-						<div class="back">
-							<img class="img-responsive lazy" data-original="images/entwurf/europa.jpg" alt="Käse in Europa">
-						</div>
-					</div>
-				</div>
-			</div>
+        <div class="owl-carousel owl-theme">
+          <img class="img-responsive lazyowl" data-original="images/kaeseV.jpg" alt="Käse in Europa">
+          <img class="img-responsive owl-lazy" data-src="images/kaese-entwurf.jpg" alt="Käse als Entwurf">
+          <img class="img-responsive owl-lazy" data-src="images/entwurf/europa.jpg" alt="Käse in Europa">
+          <img class="img-responsive owl-lazy" data-src="images/kaese-1901-1.jpg" alt="Käse in Europa">
+          <img class="img-responsive owl-lazy" data-src="images/kaese-1901-2.jpg" alt="Käse in Europa">
+        </div>
+      </div>
 		</div>
 		<div class="col-xs-12 col-sm-6 text">
 			<div class="block"><h2>
@@ -300,7 +328,8 @@ Dazu stellten sie sich die grundlegende Frage: ‚Was fällt mir als erstes ein,
 	</div>
 	<div class="row kontinentkarten ozean">
 		<div class="col-xs-12 col-sm-6 text">
-			<div class="block"><h2>
+			<div class="block">
+        <h2>
 				Ozeane
 			</h2>
 			<p>Die Kontinente sind durch blaue Zwischen­wege getrennt. Sie symbolisieren die Ozeane. Doch sie sind leicht überwindbar! Die Überwindung von Grenzen ist ein wichtiges Anliegen des Weltspielplatzes.</p></div>
@@ -344,14 +373,21 @@ Der Weltspielplatz versteht sich mehr als nur der größte von Kindern erdachte 
 	<div class="row panorama" id="panorama">
 		<div class="col-xs-12">
 			<h1 class="text-center">Panorama</h1>
-			<div class="pano lazy" data-original="images/pano1-700.jpg" style="background:#2D2D0B">
+			<div class="pano lazy" data-original="images/pano3-700.jpg" style="background:#2D2D0B">
 				<p style="padding: 15px; color: white">Bewege Dich durch das Panorama mit dem Mauszeiger oder Deinem Finger.</p>
 			</div>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-xs-12">
-			<div class="pano lazy" data-original="images/pano2-700.jpg" style="background:#BACEE1">
+			<div class="pano lazy" data-original="images/pano4-700.jpg" style="background:#BACEE1">
+				<p style="padding: 15px; color: white">Bewege Dich durch das Panorama mit dem Mauszeiger oder Deinem Finger.</p>
+			</div>
+		</div>
+	</div>
+  <div class="row">
+		<div class="col-xs-12">
+			<div class="pano lazy" data-original="images/pano5-700.jpg" style="background:#BACEE1">
 				<p style="padding: 15px; color: white">Bewege Dich durch das Panorama mit dem Mauszeiger oder Deinem Finger.</p>
 			</div>
 		</div>

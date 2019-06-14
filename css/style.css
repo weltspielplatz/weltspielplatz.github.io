@@ -928,3 +928,12 @@ div.kontinentkarten .block {
 .news-container[v-cloak] {
   display: none;
 }
+.checklist li {
+  list-style-type: none;
+}
+.checklist li::before {
+  content: "\f14a";
+  font-family: 'FontAwesome';
+  margin-left: -36px;
+  margin-right: 18px;
+}
