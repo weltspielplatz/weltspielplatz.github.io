@@ -8,6 +8,7 @@ require.config({
     magnificPopup: ['http://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min'],
     multicolumn: ["multicolumn"],
     flip: ["flip"],
+    owl: ["./owl/owl.carousel.min"],
     vuejs: ['https://unpkg.com/vue@2.4.2/dist/vue.min'],
   },
   shim: {
@@ -16,6 +17,7 @@ require.config({
     magnificPopup: ['jquery'],
     cyclotron: ['jquery'],
     flip: ['jquery'],
+    owl: ['jquery'],
     multicolumn: ['jquery'],
     lazyload: ['jquery']
   }
@@ -32,16 +34,6 @@ require(['jquery', 'flip'], function($, Flip) {
   $('.back').append('<p class="anweisung">Kinderidee</p>');
   $('.flipper').flip({
     'trigger': 'hover',
-  });
-});
-
-require(['jquery', 'lazyload'], function($, Lazyload) {
-  $('.lazy').lazyload({
-    placeholder: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP4/x8AAwAB/2+Bq7YAAAAASUVORK5CYII=',
-    effect: "fadeIn",
-    load: function() {
-      //$(this).addClass('animated slideInUp');
-    }
   });
 });
 
@@ -67,13 +59,6 @@ var popup = function() {
 };
 popup();
 
-require(['jquery', 'cyclotron'], function($, Cyclotron) {
-  $('.pano').cyclotron({
-    dampingFactor: 0.6
-  });
-  $('.pano').css('background-repeat', 'no-repeat');
-});
-
 require(['jquery', 'sticky'], function($, Sticky) {
   Sticky.makeSticky();
   $(window).scroll(function() {
@@ -81,17 +66,7 @@ require(['jquery', 'sticky'], function($, Sticky) {
   })
 });
 
-require(['jquery', 'imageSize'], function($, ImageSize) {
-  var images = $('img.lazy');
-  $('img.lazy').css('height', function(index, value) {
-    var image = this;
-    return ImageSize.imagesize(image, 'height', false);
-  });
-  $('img.lazy').css('width', function(index, value) {
-    var image = this;
-    return ImageSize.imagesize(image, 'width', false);
-  });
-});
+
 
 require(['jquery','vuejs'], function($, Vue) {
 
@@ -113,7 +88,6 @@ require(['jquery','vuejs'], function($, Vue) {
       var frage = $('.aktuelles');
       frage.a = frage.find('.news-titel');
       frage.i = frage.a.find('i');
-      console.log(frage);
       frage.a.on("click", function(e) {
         e.preventDefault();
         var button = $(this);
@@ -154,13 +128,77 @@ require(['jquery','vuejs'], function($, Vue) {
     template: '#news'
   })
 
-  $.getJSON('js/news.json', function(data){
+  $.getJSON('js/news.json?v=190212_1', function(data){
   	app = new Vue({
     	el: '#app',
 			data: data,
 			mounted: function(){
-      accordion.init();
- 	   },
+        accordion.init();
+        require(['jquery', 'lazyload'], function($, Lazyload) {
+          $('.lazy').lazyload({
+            placeholder: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP4/x8AAwAB/2+Bq7YAAAAASUVORK5CYII=',
+            effect: "fadeIn",
+            load: function() {
+              console.log('lazy load .lazy');
+              require(['jquery', 'imageSize'], function($, ImageSize) {
+                var images = $('img.lazy');
+                $('img.lazy').css('height', function(index, value) {
+                  var image = this;
+                  return ImageSize.imagesize(image, 'height', false);
+                });
+                $('img.lazy').css('width', function(index, value) {
+                  var image = this;
+                  return ImageSize.imagesize(image, 'width', false);
+                });
+              });
+            }
+          });
+        });
+        require(['jquery','owl','lazyload'], function($, Owl, Lazy) {
+          var carousel = $(".owl-carousel");
+          carousel.owlCarousel({
+            items: 1,
+            loop: true,
+            // rewind: false,
+            // nav: true,
+            // dots: true,
+            threshold : 200,
+            lazyLoad: true,
+            autoplay: true,
+            autoplayTimeout: 3500,
+            autoplaySpeed: 600,
+            // autoplayHoverPause: true
+            onInitialized: function(){
+              $('.lazyowl').lazyload({
+                placeholder: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAjUAAAHaCAQAAABS5nDZAAAEeElEQVR42u3UMQ0AAAzDsJU/6aGo+tgQciQHUBcJAKsBrAbAagCrAawGwGoAqwGwGsBqAKsBsBrAagCrAbAawGoArAawGsBqAKwGsBoAqwGsBrAaAKsBrAawGgCrAawGwGoAqwGsBsBqAKsBsBrAagCrAbAawGoAqwGwGsBqAKwGsBrAagCsBrAaAKsBrAawGgCrAawGsBoAqwGsBsBqAKsBrAbAagCrAbAawGoAqwGwGsBqAKsBsBrAagCsBrAawGoArAawGgCrAawGsBoAqwGsBrAaAKsBrAbAagCrAawGwGoAqwGsRgLAagCrAbAawGoAqwGwGsBqAKwGsBrAagCsBrAawGoArAawGgCrAawGsBoAqwGsBsBqAKsBrAbAagCrAawGwGoAqwGwGsBqAKsBsBrAagCsBrAawGoArAawGsBqAKwGsBoAqwGsBrAaAKsBrAbAagCrAawGwGoAqwGsBsBqAKsBsBrAagCrAbAawGoArAawGsBqAKwGsBrAagCsBrAaAKsBrAawGgCrAawGwGoAqwGsBsBqAKsBrAbAagCrAbAawGoAqwGwGsBqAKuRALAawGoArAawGsBqAKwGsBoAqwGsBrAaAKsBrAawGgCrAawGwGoAqwGsBsBqAKsBsBrAagCrAbAawGoAqwGwGsBqAKwGsBrAagCsBrAaAKsBrAawGgCrAawGsBoAqwGsBsBqAKsBrAbAagCrAbAawGoAqwGwGsBqAKsBsBrAagCsBrAawGoArAawGgCrAawGsBoAqwGsBrAaAKsBrAbAagCrAawGwGoAqwGwGsBqAKsBsBrAagCrAbAawGoArAawGsBqAKwGsBrAaiQArAawGgCrAawGsBoAqwGsBsBqAKsBrAbAagCrAawGwGoAqwGwGsBqAKsBsBrAagCsBrAawGoArAawGsBqAKwGsBoAqwGsBrAaAKsBrAbAagCrAawGwGoAqwGsBsBqAKsBsBrAagCrAbAawGoArAawGsBqAKwGsBrAagCsBrAaAKsBrAawGgCrAawGwGoAqwGsBsBqAKsBrAbAagCrAbAawGoAqwGwGsBqAKwGsBrAagCsBrAawGoArAawGgCrAawGsBoAqwGsBrAaCQCrAawGwGoAqwGsBsBqAKsBsBrAagCrAbAawGoAqwGwGsBqAKwGsBrAagCsBrAaAKsBrAawGgCrAawGsBoAqwGsBsBqAKsBrAbAagCrAbAawGoAqwGwGsBqAKsBsBrAagCsBrAawGoArAawGgCrAawGsBoAqwGsBrAaAKsBrAbAagCrAawGwGoAqwGwGsBqAKsBsBrAagCrAbAawGoArAawGsBqAKwGsBoAqwGsBrAaAKsBrAawGgCrAawGwGoAqwGsBsBqAKsBrEYCwGoAqwGwGsBqAKsBsBrAagCsBrAawGoArAawGsBqAKwGsBoAqwGsBrAaAKsBrAbAagCrAawGwGoAqwGsBsBqAKsBsBrAagCrAbAawGoArAawGsBqAKwGsBrAagCsBrAaAKsB1h5pRAHbQsMrfwAAAABJRU5ErkJggg==',
+                effect: "fadeIn",
+                load: function() {
+                  console.log('lazy load .lazyowl');
+                  require(['jquery', 'imageSize'], function($, ImageSize) {
+                    var images = $('img.lazyowl');
+                    $('img.lazyowl').css('height', function(index, value) {
+                      var image = this;
+                      return ImageSize.imagesize(image, 'height', false);
+                    });
+                    $('img.lazyowl').css('width', function(index, value) {
+                      var image = this;
+                      return ImageSize.imagesize(image, 'width', false);
+                    });
+                  });
+                }
+              });
+            }
+          });
+
+        });
+        require(['jquery', 'cyclotron'], function($, Cyclotron) {
+          console.log('cyclotron initiert');
+          $('.pano').cyclotron({
+            dampingFactor: 0.6
+          });
+          $('.pano').css('background-repeat', 'no-repeat');
+        });
+ 	    },
   	})
   })
 
