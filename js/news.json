@@ -1,24 +1,37 @@
 {
   "news": [
     {
+      "datum": "03.09.2019",
+      "titel": "Tigerrutsche in Asien geht in die Produktion",
+      "inhalt": "Der asiatische Kontinent entwickelt sich, nicht nur im globalen Kontext. Auch auf dem asiatischen Kontinent im Weltspielplatz geht die Umsetzung der Kinderideen zu echten Spielgeräten weiter. Als nächstes Spielgerät entsteht dort die Tigerrutsche. Der Tiger ist ein Nationalsymbol unteranderem in Indien, Süd Korea und Malaysia. Er ist die größte aller Raubkatzen und eine vom Aussterben bedrohte Tierart. Die lange breite Zunge des Tigers nutzt die Katze normalerweise zum Trinken aus Bächen, Flüssen und Seen. Aber hier haben sich die Schulkinder überlegt daraus eine schwungvolle Rutschbahn zu machen. Der freundliche Tiger aus Eicheholz erlaubt es den Kindern gerne auf seiner Zunge herunterzugleiten. Mit der Tigerrutsche entsteht nach der Käserutsche die zweite Rutsche auf dem Weltspielplatz. Die 1,50m hohe und 3,45m lange Rutsche ist gerade für die kleineren Kinder geeignet. Links im Bild sieht man das Modell aus Knete und Pappe, das die Kinder sich von der Rutsche gemacht haben. Rechts daneben ist der fertige 3D-Planungsentwurf, der gerade in die Produktion geht. Das genaue Datum der Fertigstellung wird noch bekanntgegeben.",
+      "projektinfo": "",
+      "bilder": [
+        {
+          "src": "images/news/fortschritt-1909-tiger/01-400.jpg",
+          "href": "images/news/fortschritt-1909-tiger/01-1200.jpg",
+          "alt": "Die Tigerrutsche als Modell aus Knete und als 3D-Planungsentwurf."
+        }
+      ]
+    },
+    {
       "datum": "15.07.2019",
       "titel": "Freigabe der Wolkenkratzer",
       "inhalt": "Am 12. Juli 2019 wurden die Bauzäume um die Wolkenkratzer beräumt. Die Wolkenkratzer wurden von den Kindern als Sinnbild für Nord-Amerika entwickelt. Keine Großstadt in den USA kommt dort ohne diese Giganten aus und darum dürfen sie auf dem Weltspielplatz auch nicht fehlen. Für den Spielplatz haben die Kinder die Wolkenkratzer zu Klettertürmen weiterentwickelt. Untereinander sind sie durch hoch gelegene Klettergänge verbunden. In zwei der Türme wurde eine künstlich Kletterwand eingebaut, wie man sie aus Boulderhallen kennt. Es gibt in der obersten Etage des größten Turms ein Sprachrohr und ein Fernglas. Und zum Schutz vor Verletzungen besteht der Boden aus einem weichen Kunststoff. </br>Wir laden Familien und Kinder dazu ein das neue Spielgerät zu erklettern.</br></br>",
       "projektinfo": "Projektinformation: <br>Das Vorhaben &bdquo;Treptower Park \n&ndash; Teilneugestaltung im s&uuml;dlichen Parkteil sowie \nWeltspielplatz&ldquo; (Projektlaufzeit: 09/2016 bis 08/2020) wird im\n Berliner Programm f&uuml;r Nachhaltige Entwicklung (BENE) \ngef&ouml;rdert aus Mitteln des Europ&auml;ischen Fonds \nf&uuml;r Regionale Entwicklung und des Landes Berlin \n(F&ouml;rderkennzeichen 1096-B6-A)<img \nsrc=\"images/forderung/eu_efre_zusatz_rechts_rgb.jpg\" \nclass=\"forderung\" alt=\"efre\"/><img \nsrc=\"images/forderung/SenUVK_flach_rgb.jpg\" class=\"forderung\" \nalt=\"berliner senat\"/>",
       "bilder": [
         {
-          "src": "images/news/fortschritt-1917-wolkenkratzer/01-400.jpg",
-          "href": "images/news/fortschritt-1917-wolkenkratzer/01-1200.jpg",
+          "src": "images/news/fortschritt-1907-wolkenkratzer/01-400.jpg",
+          "href": "images/news/fortschritt-1907-wolkenkratzer/01-1200.jpg",
           "alt": "Die freigegebenen Klettertürme in Nord-Amerika."
         },
         {
-          "src": "images/news/fortschritt-1917-wolkenkratzer/02-400.jpg",
-          "href": "images/news/fortschritt-1917-wolkenkratzer/02-1200.jpg",
+          "src": "images/news/fortschritt-1907-wolkenkratzer/02-400.jpg",
+          "href": "images/news/fortschritt-1907-wolkenkratzer/02-1200.jpg",
           "alt": "Die Kletterwand in den Türmen."
         },
         {
-          "src": "images/news/fortschritt-1917-wolkenkratzer/03-400.jpg",
-          "href": "images/news/fortschritt-1917-wolkenkratzer/03-1200.jpg",
+          "src": "images/news/fortschritt-1907-wolkenkratzer/03-400.jpg",
+          "href": "images/news/fortschritt-1907-wolkenkratzer/03-1200.jpg",
           "alt": "Kletterwand und Türme"
         }
       ]
