@@ -1,6 +1,24 @@
 {
   "news": [
     {
+      "datum": "14.11.2019",
+      "titel": "Es ist vollbracht: die Fledermausschaukel wird kommen!",
+      "projektinfo": "",
+      "bilder": [
+        {
+          "src": "images/news/fortschritt-1911-schaukel/01-400.jpg",
+          "href": "images/news/fortschritt-1911-schaukel/01-1200.jpg",
+          "alt": "www.berlin-recycling-crowd.de, Fledermausschaukel"
+        },
+        {
+          "src": "images/news/fortschritt-1911-schaukel/02-400.jpg",
+          "href": "images/news/fortschritt-1911-schaukel/02-1200.jpg",
+          "alt": "Crowdfunding für Fledermausschaukel"
+        }
+      ],
+      "inhalt": "Juhuu, wir haben die volle Unterstützung durch Euch erhalten und konnten die Finanzierung der Fledermausschaukel sogar übererfüllen. Wir danken ganz herzlich allen, die ihr Geld in die Idee investiert haben! Mit diesem neuen Meilenstein haben wir es geschafft, nicht nur ein weiteres Spielgerät auf den Weg zu bringen, sondern wir haben auch wieder eine Kinderidee Realität werden lassen, um anderen Kindern ein nachhaltiges Erlebnis auf dem Spielplatz zu ermöglichen. Außerdem zeigt das Crowdfunding, dass die Community um den Weltspielplatz größer wird und das Projekt mehr und mehr Bekanntheit und Vertrauen genießt.<br><br>Im Moment ist die Umsetzung der Fledermausschaukel in der Ausschreibung. Im Frühjahr 2020, wenn das Eis und die Kälte dem  Frühlingserwachen weicht, wird der Baubeginn sein.<br><br>Allen Unterstützern noch einmal herzlichen Dank und wir halten Euch auf dem Laufenden!"
+    },
+    {
       "datum": "16.09.2019",
       "titel": "Der Weltspielplatz sucht Spender für die Fledermausschaukel",
       "projektinfo": "",
