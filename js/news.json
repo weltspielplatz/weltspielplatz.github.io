@@ -1,6 +1,24 @@
 {
   "news": [
     {
+      "datum": "08.06.2020",
+      "titel": "Nachwuchs im Bauernhof",
+      "projektinfo": "",
+      "bilder": [
+        {
+          "src": "images/news/fortschritt-2006-huehner/00_400.jpg",
+          "href": "images/news/fortschritt-2006-huehner/00_1200.jpg",
+          "alt": "Die Hühner im Bauernhof"
+        },
+        {
+          "src": "images/news/fortschritt-2006-huehner/01_400.jpg",
+          "href": "images/news/fortschritt-2006-huehner/01_1200.jpg",
+          "alt": "Die Hühner im Bauernhof"
+        }
+      ],
+      "inhalt": "Der Bauernhof hat Nachwuchs bekommen. Zwei neue Hühner sind dazugekommen und die beiden andern, der Gockel und die Henne, haben eine neue Frisur vom Maler erhalten. Frisch geputzt starten die Tiere in die neue Saison.<br>\nAuch die neue Tigerrutsche steht nun schon, aber sie muss noch bis Ende Juni umzäunt bleiben, da der Rasen drumherum noch wachsen muss."
+    },
+    {
       "datum": "14.11.2019",
       "titel": "Es ist vollbracht: die Fledermausschaukel wird kommen!",
       "projektinfo": "",
