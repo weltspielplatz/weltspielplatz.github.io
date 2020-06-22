@@ -1,6 +1,34 @@
 {
   "news": [
     {
+      "datum": "22.06.2020",
+      "titel": "Die Eröffnung der Fledermausschaukel",
+      "projektinfo": "",
+      "bilder": [
+        {
+          "src": "images/news/fortschritt-2006-schaukel/400-0.jpg",
+          "href": "images/news/fortschritt-2006-schaukel/1200-0.jpg",
+          "alt": "Die Sponsoren vor der Schaukel"
+        },
+        {
+          "src": "images/news/fortschritt-2006-schaukel/400-1.jpg",
+          "href": "images/news/fortschritt-2006-schaukel/1200-1.jpg",
+          "alt": "Die fertige Schaukel"
+        },
+        {
+          "src": "images/news/fortschritt-2006-schaukel/400-2.jpg",
+          "href": "images/news/fortschritt-2006-schaukel/1200-2.jpg",
+          "alt": "Die Sponsorentafel"
+        },
+        {
+          "src": "images/news/fortschritt-2006-schaukel/400-3.jpg",
+          "href": "images/news/fortschritt-2006-schaukel/1200-3.jpg",
+          "alt": "Theo auf der neuen Schaukel"
+        }
+      ],
+      "inhalt": "<strong> Einweihung einer Sponsorentafel f&uuml;r den Weltspielplatz im Treptower Park </strong><br /><br />\nPressemitteilung vom 05.06.2020<br /><br />\n<strong> Bezirksb&uuml;rgermeister Oliver Igel sowie Bezirksstadtrat Rainer H&ouml;lmer enth&uuml;llten heute gemeinsam mit Theo Tintenklecks die Sponsorentafel zur Fledermausschaukel auf dem Weltspielplatz im Treptower Park. </strong><br /><br />\nDer Weltspielplatz im Treptower Park ist ein ganz besonderer Spielplatz. Jedes hier errichtete Spielger&auml;t wurde von Kindern erdacht. Mit seinen weitr&auml;umigen Spielfl&auml;chen, die als Kontinente und Ozeane inklusive Nord- und S&uuml;dpol angelegt sind, versinnbildlicht der Spielplatz die ganze Welt. Hier k&ouml;nnen die Kinder spielerisch die Welt bereisen und lernen, dass es keine un&uuml;berwindbaren Grenzen gibt. <br /> Seit seiner Er&ouml;ffnung im Jahr 2013 w&auml;chst der Spielplatz stetig weiter. Bereits jetzt kann man auf den Hochh&auml;usern von Manhattan herumklettern, durch einen leuchtenden Schweizer K&auml;se durchrutschen, auf einer Giraffe herumklettern, sich auf dem Nordpol eine Auszeit g&ouml;nnen oder doch mit einem Seil in den Anden und in den Rocky Mountains klettern ohne dabei Treptow-K&ouml;penick zu verlassen. Seit neuestem kann man nun in Australien abh&auml;ngen &ndash; in einer Fledermausschaukel.<br /><br />\nAn der Umsetzung der Fledermausschaukel waren zahlreiche Sponsoren beteiligt. Das Bezirksamt Treptow-K&ouml;penick hatte zuvor gemeinsam mit Berlin-Recycling zu einer Crowdfunding-Aktion aufgerufen. Viele haben mitgemacht und dazu beigetragen. Insgesamt haben 59 Unterst&uuml;tzerinnen und Unterst&uuml;tzer eine Summe von 13.765 EUR zusammengetragen und damit geholfen, eine weitere wunderbare, fantasiereiche Idee der Kinder als Projekt auf den Weg zu bringen und Wirklichkeit werden zu lassen. Daf&uuml;r geb&uuml;hrt allen am Projekt Beteiligten gr&ouml;&szlig;ter Dank. <br /> Eine Sponsorentafel macht das erbrachte Engagement noch einmal sichtbar. Das Bezirksamt bedankt sich bei der ausf&uuml;hrende Firma Kalbitz Spielger&auml;te GmbH (Benzstra&szlig;e 35-53; 12277 Berlin) sowie dem Planungsb&uuml;ro Ahner Landschaftsarchitektur (Schlossstra&szlig;e 7 15711 K&ouml;nigs Wusterhausen) und nat&uuml;rlich bei den Sponsoren, insbesondere bei:<br /><br />\n<ul>\n<li>Lollapallooza Berlin &ndash; Pfuelstrasse 5, 10997 Berlin</li>\n<li>Uwe Porsch &ndash; Papa von Maya</li>\n<li>Berlin Recycling GmbH &ndash; Monumentenstra&szlig;e 14, 10829 Berlin</li>\n<li>Ulrike Schenka-van Capelleveen</li>\n<li>Obinna van Capelleveen</li>\n<li>Urbane F&uuml;chse</li>\n<li>BUWOG Bautr&auml;ger GmbH &ndash; Rankestr. 21, 10789 Berlin</li>\n<li>BKK-VBU -Betriebskrankenkasse -Verkehrsbau Union, Lindenstra&szlig;e 67, 10969 Berlin</li>\n<li>1. FC Union Berlin &ndash; Alte F&ouml;rsterei Veranstaltungs- GmbH & Co. KG, An der Wuhlheide 263, 12555 Berlin</li>\n<li>AGROMEX GmbH & Co. KG &ndash; Chausseestr. 131, 10115 Berlin</li>\n<li>Berliner Sparkasse &ndash; Niederlassung der Landesbank Berlin AG, Alexanderplatz 2, 10178 Berlin (Bem&uuml;hungen gingen von Berliner Sparkasse, D&ouml;rpfeldstr. 40-42, 12489 Berlin, aus)</li>\n<li>Stern und Kreisschiffahrt GmbH &ndash; Puschkinallee 15, 12435 Berlin</li>\n<li>BTB GmbH &ndash; Gau&szlig;str. 11, 10589 Berlin</li>\n<li>Vattenfall W&auml;rme Berlin AG &ndash; Sellerstr. 16, 13353 Berlin</li>\n</ul>"
+    },
+    {
       "datum": "08.06.2020",
       "titel": "Nachwuchs im Bauernhof",
       "projektinfo": "",
