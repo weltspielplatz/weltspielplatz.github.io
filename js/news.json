@@ -1,6 +1,29 @@
 {
   "news": [
     {
+      "datum": "10.08.2020",
+      "titel": "Die Eröffnung der Tigerrutsche",
+      "projektinfo": "",
+      "bilder": [
+        {
+          "src": "images/news/fortschritt-2008-tigerrutsche/400-0.jpg",
+          "href": "images/news/fortschritt-2008-tigerrutsche/800-0.jpg",
+          "alt": "Die Rutsche im asiatischen Dschungel"
+        },
+        {
+          "src": "images/news/fortschritt-2008-tigerrutsche/400-1.jpg",
+          "href": "images/news/fortschritt-2008-tigerrutsche/800-1.jpg",
+          "alt": "Die Rutsche von vorne"
+        },
+        {
+          "src": "images/news/fortschritt-2008-tigerrutsche/400-2.jpg",
+          "href": "images/news/fortschritt-2008-tigerrutsche/800-2.jpg",
+          "alt": "Das Tigergesicht"
+        }
+      ],
+      "inhalt": "Auf dem asiatischen Kontinent ist ein weiteres Spielgerät freigegeben worden: die Tigerrutsche. Lauernd und gut getarnt steht der Tiger zwischen Büschen, schaut konzentriert und ist immer für ein Abenteuer bereit. Doch damit die Rutschpartie auch wirklich Spaß macht und sicher für die Kinder ist, musste das Spielgerät erst noch von Experten freigegeben werden. Nun ist der Bauzaun endgültig weg. Jetzt können die Kinder ohne Angst vor dem Asiatischen Tiger durch das Maul hindurchrutschen und sie landen auf weichem Grund des Indischen Dschungels. Denn vor allem in Indien, Indochina, Indonesien und Sibirien leben die Tiger. Viele Unterarten der Tiger sind bereits <a target=\"_blank\" href=\"https://www.wwf.at/de/tiger-verbreitung/\">ausgestorben</a>. Und ein ganz bekannter Tiger (Shir-Khan) kommt in der Geschichte des <a target=\"_blank\"  href=\"https://de.wikipedia.org/wiki/Das_Dschungelbuch\">Dschungelbuchs</a> vor."
+    },
+    {
       "datum": "22.06.2020",
       "titel": "Die Eröffnung der Fledermausschaukel",
       "projektinfo": "",
@@ -252,7 +275,6 @@
       "datum": "24.07.2018",
       "titel": "In Europa wächst der Käse",
       "inhalt": "‚Zu Eurpoa gehört Käse‘, haben sich die Kinder gedacht, als sie die Spielgeräte planten. In der Tat hat Käse in Europa eine lange Tradition und hat sich auf dem europäischen Kontinent mit sehr unterschiedliche Geschmacksrichtungen entwickelt. 2018 liegt der Pro-Kopf-Verbrauch in Europa durchschnittlich bei 12,5 Kg, Tendenz steigend. Der Käse auf dem Weltspielplatz wird ein löchriger, damit die Kinder den Käse von innen erleben können. Durchrutschen, durchklettern und verstecken, aber ohne dass man sich die Nase zuhalten muss, wie manche reflexartig machen, wenn in der Nähe ein Schweizer Käse ist.<br>",
-      "projektinfo": "Projektinformation: <br>Das Vorhaben &bdquo;Treptower Park &ndash; Teilneugestaltung im s&uuml;dlichen Parkteil sowie Weltspielplatz&ldquo; (Projektlaufzeit: 09/2016 bis 08/2020) wird im Berliner Programm f&uuml;r Nachhaltige Entwicklung (BENE) gef&ouml;rdert aus Mitteln des Europ&auml;ischen Fonds f&uuml;r Regionale Entwicklung und des Landes Berlin (F&ouml;rderkennzeichen 1096-B6-A)<img src=\"images/forderung/eu_efre_zusatz_rechts_rgb.jpg\" class=\"forderung\" alt=\"efre\"/><img src=\"images/forderung/SenUVK_flach_rgb.jpg\" class=\"forderung\" alt=\"berliner senat\"/>",
       "bilder": [
         {
           "src": "images/news/kaese/01-400.jpg",
