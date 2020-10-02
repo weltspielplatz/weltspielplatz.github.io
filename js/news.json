@@ -1,6 +1,39 @@
 {
   "news": [
     {
+      "datum": "01.09.2020",
+      "titel": "Vier neue Spielflächen beauftragt (Kletterfelsen, Wombathöhle, Eisschollenfeld, Dschungelparkour)",
+      "projektinfo": "",
+      "bilder": [
+        {
+          "src": "images/news/fortschritt-2009-uluru/400-3.jpg",
+          "href": "images/news/fortschritt-2009-uluru/800-3.jpg",
+          "alt": "Der Uluru zum Klettern"
+        },
+        {
+          "src": "images/news/fortschritt-2009-uluru/400-4.jpg",
+          "href": "images/news/fortschritt-2009-uluru/800-4.jpg",
+          "alt": "Der Wombat zum Verstecken"
+        },
+        {
+          "src": "images/news/fortschritt-2009-uluru/400-5.jpg",
+          "href": "images/news/fortschritt-2009-uluru/800-5.jpg",
+          "alt": "Der Wombat zum Verstecken"
+        },
+        {
+          "src": "images/news/fortschritt-2009-uluru/400-0.jpg",
+          "href": "images/news/fortschritt-2009-uluru/800-0.jpg",
+          "alt": "Die Eisschollen zum Hüpfen"
+        },
+        {
+          "src": "images/news/fortschritt-2009-uluru/400-1.jpg",
+          "href": "images/news/fortschritt-2009-uluru/800-1.jpg",
+          "alt": "Die Eisschollen zum Hüpfen"
+        }
+      ],
+      "inhalt": "Wir haben es geschafft, dass ein weiterer Bauauftrag ausgelöst werden konnte. Schon im September gehen vier neue Spielflächen in den Bau, zwei davon in Australien:<br><br>Der rot Kletter- und Rutschfelsen „<a target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Uluru\">Uluru</a>“, mit einer Höhe von 3 Metern. Ein eingearbeiteter Weg, Stufen und schwierigere Aufstiege machen den Felsen zu einem Klettererlebnis.\nDie zweite Attraktion in Australien ist der <a target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Wombats\">Wombat</a>. Eigentlich ist er ein kurzbeiniges Beuteltier, das sich gerne in Höhlen aufhält, die es selber gegraben hat. Auf dem Spielplatz wird der Wombat aber groß genug sein, um selbt in ihn hineinzugehen und es sich dort, wie die Jungtiere in seinem Beutel, gemütlich zu machen.<br><br>In der Antarktis entsteht ein sehr großes Eisschollenfeld. Auf dem können die Kinder in verschiedenen Schwierigkeitsstufen über drei Hüpfpfade das Feld durchqueren. Geschicklichkeit und Kraft können hier gelernt und trainiert werden.<br><br>Als Viertes entsteht auf dem Asiatischen Kontinent ein Dschungelparkour. Viele verschiedene Kletter- und Laufelemente aneinandergereiht ergeben hier einen Parcour, den man nur mit Übung und viel Balance meistern kann.<br><br>Alle neuen Spielgeräte sollen noch in diesem Jahr vor dem Winter fertiggestellt werden. So können die Kinder noch in diesem Jahr ihre Fähigkeiten auf den neuen Spielflächen erproben.\n"
+    },
+    {
       "datum": "10.08.2020",
       "titel": "Die Eröffnung der Tigerrutsche",
       "projektinfo": "",
