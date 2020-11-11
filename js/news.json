@@ -2,6 +2,34 @@
   "news": [
     {
       "datum": "01.09.2020",
+      "titel": "Baubeginn für die vier neuen Spielflächen, Fertigstellung bis Ende 2020",
+      "projektinfo": "",
+      "bilder": [
+        {
+          "src": "images/news/fortschritt-2011-baubeginn/400-0.jpg",
+          "href": "images/news/fortschritt-2011-baubeginn/800-0.jpg",
+          "alt": "Baugrundstück Dschungelparkour"
+        },
+        {
+          "src": "images/news/fortschritt-2011-baubeginn/400-1.jpg",
+          "href": "images/news/fortschritt-2011-baubeginn/800-1.jpg",
+          "alt": "Fundament Errichtung Australien"
+        },
+        {
+          "src": "images/news/fortschritt-2011-baubeginn/400-2.jpg",
+          "href": "images/news/fortschritt-2011-baubeginn/800-2.jpg",
+          "alt": "Fundament Errichtung Australien"
+        },
+        {
+          "src": "images/news/fortschritt-2011-baubeginn/400-3.jpg",
+          "href": "images/news/fortschritt-2011-baubeginn/800-3.jpg",
+          "alt": "Baustelle des Dschungelparkour Australien"
+        }
+      ],
+      "inhalt": "Am 2. November hat der Bau für die drei Spielflächen in Australien begonnen (Kletterfelsen, Wombathöhle), sowie für das Eisschollenfeld und den Dschungelparkour. Das Fundamet für den Kletterfelsen (Uluru) ist bereits in der Aushärtung, so dass ab nächster Woche der Felsen darauf errichtet werden kann. Der Wombat und die Eisschollen entstehen in den Fertigungshallen der Baufirma und werden einbaufertig geliefert und brauchen nur noch aufgestellt und eingebaut werden.\nDer Dschungelparkour in Asien ist in der letzten Woche geliefert worden und wird gerade nach und nach aufgebaut.<br>\nDer gesamte Bau des Teilabschnitts wird bis Ende des Jahre fertig sein."
+    },
+    {
+      "datum": "01.09.2020",
       "titel": "Vier neue Spielflächen beauftragt (Kletterfelsen, Wombathöhle, Eisschollenfeld, Dschungelparkour)",
       "projektinfo": "",
       "bilder": [
