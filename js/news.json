@@ -1,7 +1,50 @@
 {
   "news": [
     {
-      "datum": "01.09.2020",
+      "datum": "18.12.2020",
+      "titel": "Dschungelparkour fertig, Australien noch nicht ganz",
+      "projektinfo": "",
+      "bilder": [
+        {
+          "src": "images/news/fortschritt-2012-fertigstellung/400-0.jpg",
+          "href": "images/news/fortschritt-2012-fertigstellung/800-0.jpg",
+          "alt": "Dschungelparkour fertig"
+        },
+        {
+          "src": "images/news/fortschritt-2012-fertigstellung/400-1.jpg",
+          "href": "images/news/fortschritt-2012-fertigstellung/800-1.jpg",
+          "alt": "Dschungelparkour fertig"
+        },
+        {
+          "src": "images/news/fortschritt-2012-fertigstellung/400-2.jpg",
+          "href": "images/news/fortschritt-2012-fertigstellung/800-2.jpg",
+          "alt": "Uluru Entstehung Gerüst"
+        },
+        {
+          "src": "images/news/fortschritt-2012-fertigstellung/400-3.jpg",
+          "href": "images/news/fortschritt-2012-fertigstellung/800-3.jpg",
+          "alt": "Uluru Spritzbeton"
+        },
+        {
+          "src": "images/news/fortschritt-2012-fertigstellung/400-4.jpg",
+          "href": "images/news/fortschritt-2012-fertigstellung/800-4.jpg",
+          "alt": "Uluru Farbauftrag"
+        },
+        {
+          "src": "images/news/fortschritt-2012-fertigstellung/400-5.jpg",
+          "href": "images/news/fortschritt-2012-fertigstellung/800-5.jpg",
+          "alt": "Wombat Aufstellung"
+        },
+        {
+          "src": "images/news/fortschritt-2012-fertigstellung/400-6.jpg",
+          "href": "images/news/fortschritt-2012-fertigstellung/800-6.jpg",
+          "alt": "Wombat Aufstellung"
+        }
+      ],
+      "inhalt": "Das Jahr neigt sich dem Ende aber der Weltspieplatz ist noch kurz vor Weihnachten um einige Spielgeräte reicher geworden. Auf dem australischen Kontinent entstand der Uluru aus Spritzbeton, der auf ein Metallgitter aufgetragen wurde. Anschließend wurde die Struktur des Kletterfelsens verfeinert, die Klettermulden eingearbeitet und Farbe aufgetragen. Der Wombat kam mit dem Lastwagen auf den Weltspielplatz und steht an seinem Platz. Auch die Eisschollen sind angeliefert worden und sind bereit für den Einbau. Aufgrund zwischenzeitlich kalter Tage konnten die Arbeiten leider nicht wie geplant fertiggestellt werden. Sobald es das Wetter im neuen Jahr erlaubt, wird weitergebaut: der Wombat bekommt noch sein Gesicht sowie eine Fellstruktur, der Kletterfelsen Uluru und die Eisschollen brauchen noch den letzten Anstrich. Der Dschungelparkour ist sogar schon fertig. Er wartet nur darauf, dass rings um ihn der Rollrasen anwächst.<br><br>Wir freuen uns mit den Kinden diese Neuheiten im neuen Jahr einzuweihen, damit sie das nächste Jahr spielend beginnen können.<br>In diesem Sinne wünschen wir allen Kindern und ihren Familien ein besinnliches Fest und einen guten Rutsch! Bis zum nächsten Jahr!"
+    },
+    {
+      "datum": "11.11.2020",
       "titel": "Baubeginn für die vier neuen Spielflächen, Fertigstellung bis Ende 2020",
       "projektinfo": "",
       "bilder": [
