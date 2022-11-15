@@ -32,7 +32,7 @@
 
 
 /* @import must be at top of file, otherwise CSS will not work */
-@import url('http://hello.myfonts.net/count/2e5ddf');
+// @import url('http://hello.myfonts.net/count/2e5ddf');
 
 
 @font-face {font-family: 'SamoSans';font-weight: normal;font-style: italic;src: url('../samo/2E5DDF_0_0.eot');src: url('../samo/2E5DDF_0_0.eot?#iefix') format('embedded-opentype'),url('../samo/2E5DDF_0_0.woff2') format('woff2'),url('../samo/2E5DDF_0_0.woff') format('woff'),url('../samo/2E5DDF_0_0.ttf') format('truetype'),url('../samo/2E5DDF_0_0.svg#wf') format('svg');}
@@ -41,6 +41,29 @@
 @font-face {font-family: 'SamoSans';font-weight: bold;font-style: normal;src: url('../samo/2E5DDF_2_0.eot');src: url('../samo/2E5DDF_2_0.eot?#iefix') format('embedded-opentype'),url('../samo/2E5DDF_2_0.woff2') format('woff2'),url('../samo/2E5DDF_2_0.woff') format('woff'),url('../samo/2E5DDF_2_0.ttf') format('truetype'),url('../samo/2E5DDF_2_0.svg#wf') format('svg');}
 @font-face {font-family: 'SamoSansBold';font-weight: bold;font-style: normal;src: url('../samo/2E5DDF_2_0.eot');src: url('../samo/2E5DDF_2_0.eot?#iefix') format('embedded-opentype'),url('../samo/2E5DDF_2_0.woff2') format('woff2'),url('../samo/2E5DDF_2_0.woff') format('woff'),url('../samo/2E5DDF_2_0.ttf') format('truetype'),url('../samo/2E5DDF_2_0.svg#wf') format('svg');}
 @font-face {font-family: 'SamoSans';font-weight: normal;font-style: normal;src: url('../samo/2E5DDF_3_0.eot');src: url('../samo/2E5DDF_3_0.eot?#iefix') format('embedded-opentype'),url('../samo/2E5DDF_3_0.woff2') format('woff2'),url('../samo/2E5DDF_3_0.woff') format('woff'),url('../samo/2E5DDF_3_0.ttf') format('truetype'),url('../samo/2E5DDF_3_0.svg#wf') format('svg');}
+
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fontawesome/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('../fontawesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fontawesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fontawesome/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fontawesome/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 
 @import url('mp.less');
 
@@ -481,6 +504,27 @@ div.kontinentkarten {
 	}
 }
 
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
 .checklist li {
 	list-style-type: none;
 	&::before {
@@ -489,4 +533,16 @@ div.kontinentkarten {
 		margin-left: -36px;
 		margin-right: 18px;
 	}
+	&.inarbeit {
+		&::before {
+			-webkit-animation: fa-spin 2s infinite linear;
+	  	animation: fa-spin 2s infinite linear;
+			position: absolute;
+			content: "\f013";
+			font-family: 'FontAwesome';
+			margin-left: -36px;
+			margin-right: 18px;
+		}
+	}
 }
+
