@@ -1,11 +1,11 @@
 require.config({
   paths: {
     // specify a path to jquery, the second declaration is the local fallback
-    jquery: ["http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min"],
-    jqueryUI: ['http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min'],
-    lazyload: ['http://cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.5/jquery.lazyload.min'],
-    fitVids: ['http://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min'],
-    magnificPopup: ['http://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min'],
+    jquery: ["https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min", "jquery.min"],
+    jqueryUI: ['https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min'],
+    lazyload: ['https://cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.5/jquery.lazyload.min'],
+    fitVids: ['https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min'],
+    magnificPopup: ['https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min'],
     multicolumn: ["multicolumn"],
     flip: ["flip"],
     owl: ["./owl/owl.carousel.min"],
