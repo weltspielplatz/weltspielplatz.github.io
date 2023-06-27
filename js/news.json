@@ -1,6 +1,34 @@
 {
   "news": [
     {
+      "datum": "26.06.2023",
+      "titel": "Fertig ✅ Afrika: Wasserbüffel, Telefonzelle, Funkgerät und Kletterbaum",
+      "projektinfo": "",
+      "bilder": [
+        {
+          "src": "images/news/fortschritt-2306-afrika/400-01.webp",
+          "href": "images/news/fortschritt-2306-afrika/1200-01.webp",
+          "alt": "Der Kletterbaum"
+        },
+        {
+          "src": "images/news/fortschritt-2306-afrika/400-02.webp",
+          "href": "images/news/fortschritt-2306-afrika/1200-02.webp",
+          "alt": "Die Wasserbüffel"
+        },
+        {
+          "src": "images/news/fortschritt-2306-afrika/400-03.webp",
+          "href": "images/news/fortschritt-2306-afrika/1200-03.webp",
+          "alt": "Die Telefonzelle"
+        },
+        {
+          "src": "images/news/fortschritt-2306-afrika/400-04.webp",
+          "href": "images/news/fortschritt-2306-afrika/1200-04.webp",
+          "alt": "Das Funkgerät"
+        }
+      ],
+"inhalt": "Seit Anfang Juni sind die neuen Spielgeräte auf dem Weltspielplatz freigegeben. Die Klettersafari in Afrika kann damit starten, dass ihr 2 Meter des Kletterbaums erklimmt, um euch einen Überblick über die neuen Spielmöglichkeiten zu verschaffen. Danach könnt ihr euch mit den Wasserbüffeln anfreunden. Wenn ihr die Kurbel an einem der Büffel gefunden habt, könnt ihr durch Drehen ihre natürlichen Laute und Fressgeräusche hören. Später wird es noch Informationen über die Büffel und Ihre Lebensweise geben (die Texte werden gerade eingesprochen). Danach könnt ihr über das Funkgerät in Afrika mit anderen Kindern in Europa in der Telefonzelle über eure Eindrücke sprechen. Der fast 10 Meter lange Gesprächskanal verläuft unterirdisch und ist ein Symbol für die Kommunikation über kontinentale Grenzen hinweg. Falls ihr von dem Spielen eine Pause braucht, könnt ihr euch auf dem neuen Sitzbaum eine Weile ausruhen. Hoffentlich kommt ihr bald vorbei und probiert die Neuigkeiten aus!"
+    },
+    {
       "datum": "17.04.2023",
       "titel": "Afrika: Wasserbüffel, Telefonzelle, Funkgerät und Kletterbaum fast fertig",
       "projektinfo": "",
